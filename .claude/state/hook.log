@@ -1,0 +1,585 @@
+2026-01-07 13:13:16 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 13:13:16 [INFO] Processing session fb94e265-3664-490c-83ed-99a0f266ab4b
+2026-01-07 13:13:16 [INFO] Found       24 new messages
+2026-01-07 13:13:16 [INFO] Batch post succeeded: 2 runs
+2026-01-07 13:13:16 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 13:13:16 [INFO] Created turn 1: fd3c919d-2ad6-4886-96b5-3fca5821e82c with 1 LLM call(s)
+2026-01-07 13:13:17 [INFO] Batch post succeeded: 4 runs
+2026-01-07 13:13:17 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 13:13:17 [INFO] Created turn 2: d1749dd5-a9b4-4db4-a684-44a000868966 with 2 LLM call(s)
+2026-01-07 13:13:18 [INFO] Batch post succeeded: 4 runs
+2026-01-07 13:13:18 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 13:13:18 [INFO] Created turn 3: 7d8ab2fb-6778-4c3a-8501-755c0ea11942 with 2 LLM call(s)
+2026-01-07 13:13:18 [INFO] Processed 3 turns in 2s
+2026-01-07 13:25:48 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 13:25:48 [INFO] Processing session fb94e265-3664-490c-83ed-99a0f266ab4b
+2026-01-07 13:25:48 [INFO] Found       14 new messages
+2026-01-07 13:25:49 [INFO] Batch post succeeded: 7 runs
+2026-01-07 13:25:50 [INFO] Batch patch succeeded: 7 runs
+2026-01-07 13:25:50 [INFO] Created turn 4: 1a15729d-838c-4c3b-b62f-377b57dd1163 with 3 LLM call(s)
+2026-01-07 13:25:50 [INFO] Processed 1 turns in 2s
+2026-01-07 13:27:37 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 13:27:37 [INFO] Processing session fb94e265-3664-490c-83ed-99a0f266ab4b
+2026-01-07 13:27:37 [INFO] Found       24 new messages
+2026-01-07 13:27:38 [INFO] Batch post succeeded: 13 runs
+2026-01-07 13:27:39 [INFO] Batch patch succeeded: 13 runs
+2026-01-07 13:27:39 [INFO] Created turn 5: c2115a85-9f72-4a3f-8e23-5bc8f0f02567 with 5 LLM call(s)
+2026-01-07 13:27:39 [INFO] Processed 1 turns in 2s
+2026-01-07 13:43:49 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 13:43:49 [INFO] Processing session fb94e265-3664-490c-83ed-99a0f266ab4b
+2026-01-07 13:43:49 [INFO] Found       42 new messages
+2026-01-07 13:43:53 [INFO] Batch post succeeded: 24 runs
+2026-01-07 13:43:54 [INFO] Batch patch succeeded: 24 runs
+2026-01-07 13:43:54 [INFO] Created turn 6: 18018810-3a5e-4016-a3e7-57fb16333383 with 12 LLM call(s)
+2026-01-07 13:43:54 [INFO] Processed 1 turns in 5s
+2026-01-07 13:56:36 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 13:56:36 [INFO] Processing session fb94e265-3664-490c-83ed-99a0f266ab4b
+2026-01-07 13:56:36 [INFO] Found       42 new messages
+2026-01-07 13:56:43 [INFO] Batch post succeeded: 37 runs
+2026-01-07 13:56:44 [INFO] Batch patch succeeded: 37 runs
+2026-01-07 13:56:44 [INFO] Created turn 7: dd1199d6-5983-4caa-85ef-398241343420 with 18 LLM call(s)
+2026-01-07 13:56:44 [INFO] Processed 1 turns in 8s
+2026-01-07 14:04:29 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:04:29 [INFO] Processing session b613649f-6050-457b-b04d-af4fe86271c2
+2026-01-07 14:04:29 [INFO] Found       11 new messages
+2026-01-07 14:04:29 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:04:29 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:04:29 [INFO] Created turn 1: eefc94dd-503c-414a-af17-eea133149524 with 1 LLM call(s)
+2026-01-07 14:04:29 [INFO] Processed 1 turns in 0s
+2026-01-07 14:31:36 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:31:36 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:31:36 [INFO] Found       17 new messages
+2026-01-07 14:31:37 [INFO] Batch post succeeded: 12 runs
+2026-01-07 14:31:38 [INFO] Batch patch succeeded: 12 runs
+2026-01-07 14:31:38 [INFO] Created turn 1: 484a8a45-c279-432d-82a3-b7f3fcc5867b with 4 LLM call(s)
+2026-01-07 14:31:38 [INFO] Processed 1 turns in 2s
+2026-01-07 14:35:07 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:35:07 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:35:07 [INFO] Found       32 new messages
+2026-01-07 14:35:08 [INFO] Batch post succeeded: 8 runs
+2026-01-07 14:35:08 [INFO] Batch patch succeeded: 8 runs
+2026-01-07 14:35:08 [INFO] Created turn 2: f1dd8268-861d-4de8-b9d3-6690b1bfeee5 with 2 LLM call(s)
+2026-01-07 14:35:10 [INFO] Batch post succeeded: 15 runs
+2026-01-07 14:35:10 [INFO] Batch patch succeeded: 15 runs
+2026-01-07 14:35:10 [INFO] Created turn 3: 2a5990b7-49a6-4f76-863d-3a25961a3cfc with 5 LLM call(s)
+2026-01-07 14:35:11 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:35:11 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:35:11 [INFO] Created turn 4: b100dcb4-086c-42a4-9e77-f16dc5832e11 with 1 LLM call(s)
+2026-01-07 14:35:11 [INFO] Processed 3 turns in 4s
+2026-01-07 14:39:24 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:39:24 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:39:24 [INFO] Found       40 new messages
+2026-01-07 14:39:25 [INFO] Batch post succeeded: 10 runs
+2026-01-07 14:39:26 [INFO] Batch patch succeeded: 10 runs
+2026-01-07 14:39:26 [INFO] Created turn 5: 07711441-2a4a-49b1-be00-4c1609c4071d with 4 LLM call(s)
+2026-01-07 14:39:27 [INFO] Batch post succeeded: 9 runs
+2026-01-07 14:39:27 [INFO] Batch patch succeeded: 9 runs
+2026-01-07 14:39:27 [INFO] Created turn 6: ba3aff77-e7b4-4d8b-82ab-cbbb15379729 with 4 LLM call(s)
+2026-01-07 14:39:28 [INFO] Batch post succeeded: 3 runs
+2026-01-07 14:39:28 [INFO] Batch patch succeeded: 3 runs
+2026-01-07 14:39:28 [INFO] Created turn 7: 61a2c0df-9887-4e4f-92ee-3bb240f68208 with 1 LLM call(s)
+2026-01-07 14:39:28 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:39:28 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:39:28 [INFO] Created turn 8: 4cea92cc-51be-44ac-86c4-075e513f2411 with 1 LLM call(s)
+2026-01-07 14:39:28 [INFO] Processed 4 turns in 4s
+2026-01-07 14:39:56 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:39:56 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:39:56 [INFO] Found        4 new messages
+2026-01-07 14:39:56 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:39:56 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:39:56 [INFO] Created turn 9: d0d719d8-9e31-4cf3-8197-34a556befa94 with 1 LLM call(s)
+2026-01-07 14:39:56 [INFO] Processed 1 turns in 0s
+2026-01-07 14:40:52 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:40:52 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:40:52 [INFO] Found        4 new messages
+2026-01-07 14:40:52 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:40:52 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:40:52 [INFO] Created turn 10: 9ef61773-e546-4e52-bc8a-40a58cd19f04 with 1 LLM call(s)
+2026-01-07 14:40:52 [INFO] Processed 1 turns in 0s
+2026-01-07 14:44:04 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:44:04 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:44:04 [INFO] Found        4 new messages
+2026-01-07 14:44:04 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:44:04 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:44:04 [INFO] Created turn 11: b19695e8-32de-41f2-bd25-18052e754ee1 with 1 LLM call(s)
+2026-01-07 14:44:04 [INFO] Processed 1 turns in 0s
+2026-01-07 14:44:53 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:44:53 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:44:53 [INFO] Found        4 new messages
+2026-01-07 14:44:54 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:44:54 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:44:54 [INFO] Created turn 12: 90e4d778-b415-42c7-b691-291ac439c0d0 with 1 LLM call(s)
+2026-01-07 14:44:54 [INFO] Processed 1 turns in 1s
+2026-01-07 14:45:14 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:45:14 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:45:14 [INFO] Found        4 new messages
+2026-01-07 14:45:14 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:45:14 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:45:14 [INFO] Created turn 13: 01ba9bb7-309c-4d05-9c1e-3dd3aac3436b with 1 LLM call(s)
+2026-01-07 14:45:14 [INFO] Processed 1 turns in 0s
+2026-01-07 14:45:50 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 14:45:50 [INFO] Processing session c81b52d8-0b3f-4565-9401-20848bcbed22
+2026-01-07 14:45:50 [INFO] Found        4 new messages
+2026-01-07 14:45:50 [INFO] Batch post succeeded: 2 runs
+2026-01-07 14:45:50 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 14:45:50 [INFO] Created turn 14: 48d25c8b-785f-43a8-b2e7-550d371ea9fe with 1 LLM call(s)
+2026-01-07 14:45:50 [INFO] Processed 1 turns in 0s
+2026-01-07 16:35:12 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:35:12 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:35:12 [INFO] Found       10 new messages
+2026-01-07 16:35:14 [INFO] Batch post succeeded: 8 runs
+2026-01-07 16:35:14 [INFO] Batch patch succeeded: 8 runs
+2026-01-07 16:35:14 [INFO] Created turn 1: 9e938300-440b-4e8f-a94e-cacdc5f30877 with 3 LLM call(s)
+2026-01-07 16:35:14 [INFO] Processed 1 turns in 2s
+2026-01-07 16:36:27 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:36:27 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:36:27 [INFO] Found        5 new messages
+2026-01-07 16:36:27 [INFO] Batch post succeeded: 2 runs
+2026-01-07 16:36:27 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 16:36:27 [INFO] Created turn 2: ee6493d6-bd2d-4893-b291-b31774577288 with 1 LLM call(s)
+2026-01-07 16:36:27 [INFO] Processed 1 turns in 0s
+2026-01-07 16:44:18 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:44:19 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:44:19 [INFO] Found       65 new messages
+2026-01-07 16:44:21 [INFO] Batch post succeeded: 14 runs
+2026-01-07 16:44:21 [INFO] Batch patch succeeded: 14 runs
+2026-01-07 16:44:21 [INFO] Created turn 3: 7dc3c2b9-8681-4b66-bc26-590d9c73f049 with 5 LLM call(s)
+2026-01-07 16:44:28 [INFO] Batch post succeeded: 42 runs
+2026-01-07 16:44:30 [INFO] Batch patch succeeded: 42 runs
+2026-01-07 16:44:30 [INFO] Created turn 4: b3a7fdca-33eb-4f8d-8b2a-2b329eb5ca9b with 21 LLM call(s)
+2026-01-07 16:44:30 [INFO] Processed 2 turns in 12s
+2026-01-07 16:45:02 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:45:02 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:45:02 [INFO] Found        5 new messages
+2026-01-07 16:45:02 [INFO] Batch post succeeded: 2 runs
+2026-01-07 16:45:02 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 16:45:02 [INFO] Created turn 5: e3b5a7fb-a9e5-4a61-bbb6-0993a32aaa03 with 1 LLM call(s)
+2026-01-07 16:45:02 [INFO] Processed 1 turns in 0s
+2026-01-07 16:47:39 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:47:39 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:47:39 [INFO] Found       41 new messages
+2026-01-07 16:47:42 [INFO] Batch post succeeded: 20 runs
+2026-01-07 16:47:43 [INFO] Batch patch succeeded: 20 runs
+2026-01-07 16:47:43 [INFO] Created turn 6: e9a28e49-df2e-49cf-83f1-2e8478906183 with 10 LLM call(s)
+2026-01-07 16:47:43 [INFO] Processed 1 turns in 4s
+2026-01-07 16:48:35 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:48:35 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:48:35 [INFO] Found        7 new messages
+2026-01-07 16:48:36 [INFO] Batch post succeeded: 4 runs
+2026-01-07 16:48:36 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 16:48:36 [INFO] Created turn 7: b1b38115-652e-4806-90ac-47620a53b9ad with 2 LLM call(s)
+2026-01-07 16:48:36 [INFO] Processed 1 turns in 1s
+2026-01-07 16:49:45 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:49:45 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:49:45 [INFO] Found       10 new messages
+2026-01-07 16:49:46 [INFO] Batch post succeeded: 6 runs
+2026-01-07 16:49:46 [INFO] Batch patch succeeded: 6 runs
+2026-01-07 16:49:46 [INFO] Created turn 8: 49ca9232-3f7d-4ba7-b648-b5b45fd7c7a7 with 3 LLM call(s)
+2026-01-07 16:49:46 [INFO] Processed 1 turns in 1s
+2026-01-07 16:50:04 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:50:04 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:50:04 [INFO] Found        7 new messages
+2026-01-07 16:50:04 [INFO] Batch post succeeded: 2 runs
+2026-01-07 16:50:04 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 16:50:04 [INFO] Created turn 9: c41d46c3-f78d-42b3-a160-5e9f7f881f16 with 1 LLM call(s)
+2026-01-07 16:50:04 [INFO] Processed 1 turns in 0s
+2026-01-07 16:51:26 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:51:26 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:51:26 [INFO] Found        9 new messages
+2026-01-07 16:51:27 [INFO] Batch post succeeded: 2 runs
+2026-01-07 16:51:27 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 16:51:27 [INFO] Created turn 10: 460dee9f-356c-4309-802c-a8b058e5ae6a with 1 LLM call(s)
+2026-01-07 16:51:27 [INFO] Processed 1 turns in 1s
+2026-01-07 16:52:59 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:52:59 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:52:59 [INFO] Found       13 new messages
+2026-01-07 16:53:00 [INFO] Batch post succeeded: 3 runs
+2026-01-07 16:53:00 [INFO] Batch patch succeeded: 3 runs
+2026-01-07 16:53:00 [INFO] Created turn 11: e4bb9e1f-8c94-40c8-8434-e93b34efa299 with 1 LLM call(s)
+2026-01-07 16:53:00 [INFO] Batch post succeeded: 4 runs
+2026-01-07 16:53:00 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 16:53:00 [INFO] Created turn 12: 18f90875-88ac-49a2-b164-e31381416f03 with 2 LLM call(s)
+2026-01-07 16:53:00 [INFO] Processed 2 turns in 1s
+2026-01-07 16:53:46 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:53:46 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:53:46 [INFO] Found        9 new messages
+2026-01-07 16:53:47 [INFO] Batch post succeeded: 6 runs
+2026-01-07 16:53:47 [INFO] Batch patch succeeded: 6 runs
+2026-01-07 16:53:47 [INFO] Created turn 13: cdfba4ae-2f1d-4132-8ac7-863a29d23df9 with 3 LLM call(s)
+2026-01-07 16:53:47 [INFO] Processed 1 turns in 1s
+2026-01-07 16:54:41 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:54:41 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:54:41 [INFO] Found        5 new messages
+2026-01-07 16:54:41 [INFO] Batch post succeeded: 2 runs
+2026-01-07 16:54:41 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 16:54:41 [INFO] Created turn 14: bf7cd493-4b49-4d6a-8323-2792a2bd530c with 1 LLM call(s)
+2026-01-07 16:54:41 [INFO] Processed 1 turns in 0s
+2026-01-07 16:55:13 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:55:13 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:55:13 [INFO] Found        4 new messages
+2026-01-07 16:55:13 [INFO] Batch post succeeded: 2 runs
+2026-01-07 16:55:14 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 16:55:14 [INFO] Created turn 15: 78fe4dcc-7281-420a-8191-aff5e3635b84 with 1 LLM call(s)
+2026-01-07 16:55:14 [INFO] Processed 1 turns in 1s
+2026-01-07 16:56:03 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:56:03 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:56:03 [INFO] Found        8 new messages
+2026-01-07 16:56:03 [INFO] Batch post succeeded: 6 runs
+2026-01-07 16:56:04 [INFO] Batch patch succeeded: 6 runs
+2026-01-07 16:56:04 [INFO] Created turn 16: 7ddcfc18-1c04-49f5-97e9-4e907a7272cc with 3 LLM call(s)
+2026-01-07 16:56:04 [INFO] Processed 1 turns in 1s
+2026-01-07 16:58:02 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 16:58:02 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 16:58:02 [INFO] Found       11 new messages
+2026-01-07 16:58:03 [INFO] Batch post succeeded: 4 runs
+2026-01-07 16:58:03 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 16:58:03 [INFO] Created turn 17: 4170e11d-86f0-427c-a1cf-ebd6df0d9b6b with 2 LLM call(s)
+2026-01-07 16:58:03 [INFO] Batch post succeeded: 2 runs
+2026-01-07 16:58:03 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 16:58:03 [INFO] Created turn 18: 5d4d197c-ef76-4007-8b47-3d00b6cff30f with 1 LLM call(s)
+2026-01-07 16:58:04 [INFO] Processed 2 turns in 2s
+2026-01-07 17:00:00 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:00:00 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:00:00 [INFO] Found        9 new messages
+2026-01-07 17:00:01 [INFO] Batch post succeeded: 7 runs
+2026-01-07 17:00:01 [INFO] Batch patch succeeded: 7 runs
+2026-01-07 17:00:01 [INFO] Created turn 19: e8f27a29-8214-4586-ac4b-37ff111a47ab with 3 LLM call(s)
+2026-01-07 17:00:01 [INFO] Processed 1 turns in 1s
+2026-01-07 17:00:49 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:00:49 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:00:49 [INFO] Found       11 new messages
+2026-01-07 17:00:49 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:00:49 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:00:49 [INFO] Created turn 20: 5dc74ac2-259f-4e2d-ad18-bdc74bd1e321 with 1 LLM call(s)
+2026-01-07 17:00:49 [INFO] Processed 1 turns in 0s
+2026-01-07 17:01:57 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:01:57 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:01:57 [INFO] Found       12 new messages
+2026-01-07 17:01:57 [INFO] Batch post succeeded: 6 runs
+2026-01-07 17:01:58 [INFO] Batch patch succeeded: 6 runs
+2026-01-07 17:01:58 [INFO] Created turn 21: 29b624e4-4f45-45b4-8133-9d05765b8ccb with 3 LLM call(s)
+2026-01-07 17:01:58 [INFO] Processed 1 turns in 1s
+2026-01-07 17:02:20 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:02:20 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:02:20 [INFO] Found        6 new messages
+2026-01-07 17:02:21 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:02:21 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:02:21 [INFO] Created turn 22: 9d4a13ef-7164-4019-80ea-96258b9b1851 with 1 LLM call(s)
+2026-01-07 17:02:21 [INFO] Processed 1 turns in 1s
+2026-01-07 17:03:42 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:03:42 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:03:42 [INFO] Found        8 new messages
+2026-01-07 17:03:43 [INFO] Batch post succeeded: 6 runs
+2026-01-07 17:03:44 [INFO] Batch patch succeeded: 6 runs
+2026-01-07 17:03:44 [INFO] Created turn 23: 5643b6c7-a018-4ffd-8ff2-94a1ee19c010 with 3 LLM call(s)
+2026-01-07 17:03:44 [INFO] Processed 1 turns in 2s
+2026-01-07 17:05:49 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:05:49 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:05:49 [INFO] Found       13 new messages
+2026-01-07 17:05:50 [INFO] Batch post succeeded: 10 runs
+2026-01-07 17:05:51 [INFO] Batch patch succeeded: 10 runs
+2026-01-07 17:05:51 [INFO] Created turn 24: a6d3c44f-b07a-450b-a9c9-0be4488a2db1 with 5 LLM call(s)
+2026-01-07 17:05:51 [INFO] Processed 1 turns in 2s
+2026-01-07 17:07:16 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:07:16 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:07:16 [INFO] Found        5 new messages
+2026-01-07 17:07:16 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:07:16 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:07:16 [INFO] Created turn 25: 0886ab34-d6d6-4f52-b2c3-a4ff43050980 with 1 LLM call(s)
+2026-01-07 17:07:16 [INFO] Processed 1 turns in 0s
+2026-01-07 17:10:10 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:10:10 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:10:10 [INFO] Found        6 new messages
+2026-01-07 17:10:10 [INFO] Batch post succeeded: 4 runs
+2026-01-07 17:10:10 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 17:10:10 [INFO] Created turn 26: cbd07d5f-7861-4371-9851-752254ff7c49 with 2 LLM call(s)
+2026-01-07 17:10:10 [INFO] Processed 1 turns in 0s
+2026-01-07 17:10:55 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:10:55 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:10:55 [INFO] Found        5 new messages
+2026-01-07 17:10:56 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:10:56 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:10:56 [INFO] Created turn 27: 76da2b87-8133-4db3-ad00-f03ba6d33fe6 with 1 LLM call(s)
+2026-01-07 17:10:56 [INFO] Processed 1 turns in 1s
+2026-01-07 17:11:52 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:11:52 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:11:52 [INFO] Found        4 new messages
+2026-01-07 17:11:52 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:11:52 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:11:52 [INFO] Created turn 28: 5513f665-19e7-4f91-95b2-b80ac8ee7ae4 with 1 LLM call(s)
+2026-01-07 17:11:52 [INFO] Processed 1 turns in 0s
+2026-01-07 17:12:42 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:12:42 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:12:42 [INFO] Found        4 new messages
+2026-01-07 17:12:43 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:12:43 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:12:43 [INFO] Created turn 29: 5ef0a1b7-7d46-40eb-b94b-4ec13534e22f with 1 LLM call(s)
+2026-01-07 17:12:43 [INFO] Processed 1 turns in 1s
+2026-01-07 17:14:31 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:14:31 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:14:31 [INFO] Found        4 new messages
+2026-01-07 17:14:31 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:14:31 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:14:31 [INFO] Created turn 30: 8d0f29bc-e092-4c9d-a478-bf2146ab5093 with 1 LLM call(s)
+2026-01-07 17:14:31 [INFO] Processed 1 turns in 0s
+2026-01-07 17:15:08 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:15:08 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:15:08 [INFO] Found        4 new messages
+2026-01-07 17:15:08 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:15:08 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:15:08 [INFO] Created turn 31: cf8bbdde-5dd0-4247-98a6-4eea0deea9a3 with 1 LLM call(s)
+2026-01-07 17:15:08 [INFO] Processed 1 turns in 0s
+2026-01-07 17:16:19 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:16:19 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:16:19 [INFO] Found        4 new messages
+2026-01-07 17:16:19 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:16:19 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:16:19 [INFO] Created turn 32: 4750c722-4c20-4e99-9c28-74f066ab21f1 with 1 LLM call(s)
+2026-01-07 17:16:19 [INFO] Processed 1 turns in 0s
+2026-01-07 17:17:10 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:17:10 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:17:11 [INFO] Found      201 new messages
+2026-01-07 17:17:12 [INFO] Batch post succeeded: 3 runs
+2026-01-07 17:17:12 [INFO] Batch patch succeeded: 3 runs
+2026-01-07 17:17:12 [INFO] Created turn 33: fe1fc1e9-2b83-49cb-ad8e-911c5ee51364 with 1 LLM call(s)
+2026-01-07 17:17:12 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:17:12 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:17:12 [INFO] Created turn 34: 14614cc0-e649-4edb-9fd6-3d01c4e897d1 with 1 LLM call(s)
+2026-01-07 17:17:12 [INFO] Processed 2 turns in 2s
+2026-01-07 17:18:07 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:18:07 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:18:07 [INFO] Found        7 new messages
+2026-01-07 17:18:07 [INFO] Batch post succeeded: 4 runs
+2026-01-07 17:18:08 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 17:18:08 [INFO] Created turn 35: 51a7e55a-1e65-45e5-9233-224e8fc2f423 with 2 LLM call(s)
+2026-01-07 17:18:08 [INFO] Processed 1 turns in 1s
+2026-01-07 17:19:00 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:19:00 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:19:00 [INFO] Found        4 new messages
+2026-01-07 17:19:01 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:19:01 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:19:01 [INFO] Created turn 36: aa996946-5fb8-421b-992d-38d0129e3e31 with 1 LLM call(s)
+2026-01-07 17:19:01 [INFO] Processed 1 turns in 1s
+2026-01-07 17:19:50 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:19:50 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:19:50 [INFO] Found        6 new messages
+2026-01-07 17:19:51 [INFO] Batch post succeeded: 4 runs
+2026-01-07 17:19:51 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 17:19:51 [INFO] Created turn 37: 8fb8563d-50cc-41d5-909e-7894f96e289a with 2 LLM call(s)
+2026-01-07 17:19:51 [INFO] Processed 1 turns in 1s
+2026-01-07 17:20:46 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:20:46 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:20:46 [INFO] Found       11 new messages
+2026-01-07 17:20:46 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:20:47 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:20:47 [INFO] Created turn 38: 4c7d748f-1962-4483-81b4-377adc7c4377 with 1 LLM call(s)
+2026-01-07 17:20:47 [INFO] Processed 1 turns in 1s
+2026-01-07 17:20:57 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:20:57 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:20:57 [INFO] Found        5 new messages
+2026-01-07 17:20:58 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:20:58 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:20:58 [INFO] Created turn 39: 46f8db56-c46a-4088-bf98-b6572fbe4f7c with 1 LLM call(s)
+2026-01-07 17:20:58 [INFO] Processed 1 turns in 1s
+2026-01-07 17:23:13 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:23:13 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:23:13 [INFO] Found       18 new messages
+2026-01-07 17:23:15 [INFO] Batch post succeeded: 16 runs
+2026-01-07 17:23:15 [INFO] Batch patch succeeded: 16 runs
+2026-01-07 17:23:15 [INFO] Created turn 40: 7ddbcb0c-82a1-4f46-a198-81d91f177f6c with 8 LLM call(s)
+2026-01-07 17:23:15 [INFO] Processed 1 turns in 2s
+2026-01-07 17:25:12 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:25:12 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:25:12 [INFO] Found       16 new messages
+2026-01-07 17:25:13 [INFO] Batch post succeeded: 3 runs
+2026-01-07 17:25:13 [INFO] Batch patch succeeded: 3 runs
+2026-01-07 17:25:13 [INFO] Created turn 41: cef93435-0925-44d7-80c9-ccbafc00ddda with 1 LLM call(s)
+2026-01-07 17:25:14 [INFO] Batch post succeeded: 8 runs
+2026-01-07 17:25:14 [INFO] Batch patch succeeded: 8 runs
+2026-01-07 17:25:14 [INFO] Created turn 42: 775a05cc-0662-4262-8444-9311591a07e1 with 4 LLM call(s)
+2026-01-07 17:25:14 [INFO] Processed 2 turns in 2s
+2026-01-07 17:25:35 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:25:36 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:25:36 [INFO] Found        5 new messages
+2026-01-07 17:25:36 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:25:36 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:25:36 [INFO] Created turn 43: 7080a575-f624-407f-9673-ee21600b03ae with 1 LLM call(s)
+2026-01-07 17:25:36 [INFO] Processed 1 turns in 1s
+2026-01-07 17:31:25 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:31:25 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:31:25 [INFO] Found       15 new messages
+2026-01-07 17:31:26 [INFO] Batch post succeeded: 7 runs
+2026-01-07 17:31:26 [INFO] Batch patch succeeded: 7 runs
+2026-01-07 17:31:26 [INFO] Created turn 44: c9263e36-09a2-4a2d-8d44-7747fec6b8f4 with 3 LLM call(s)
+2026-01-07 17:31:27 [INFO] Batch post succeeded: 4 runs
+2026-01-07 17:31:27 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 17:31:27 [INFO] Created turn 45: a1982416-1898-4c24-8d2b-f82be295f64c with 2 LLM call(s)
+2026-01-07 17:31:27 [INFO] Processed 2 turns in 2s
+2026-01-07 17:32:51 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:32:51 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:32:51 [INFO] Found       15 new messages
+2026-01-07 17:32:52 [INFO] Batch post succeeded: 12 runs
+2026-01-07 17:32:53 [INFO] Batch patch succeeded: 12 runs
+2026-01-07 17:32:53 [INFO] Created turn 46: 6a1a54a6-f7da-403c-b0ae-7a372910f579 with 6 LLM call(s)
+2026-01-07 17:32:53 [INFO] Processed 1 turns in 2s
+2026-01-07 17:39:41 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:39:41 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:39:41 [INFO] Found        5 new messages
+2026-01-07 17:39:42 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:39:42 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:39:42 [INFO] Created turn 47: 3ac392f5-89cd-44f5-9e0b-010e8a202dcb with 1 LLM call(s)
+2026-01-07 17:39:42 [INFO] Processed 1 turns in 1s
+2026-01-07 17:42:08 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:42:09 [INFO] Processing session c38162c4-96d3-4445-be53-0bcd60fcbb97
+2026-01-07 17:42:09 [INFO] Found       16 new messages
+2026-01-07 17:42:11 [INFO] Batch post succeeded: 14 runs
+2026-01-07 17:42:11 [INFO] Batch patch succeeded: 14 runs
+2026-01-07 17:42:11 [INFO] Created turn 48: 5cf5d309-ab3c-4162-9690-8a1ce644e7c3 with 7 LLM call(s)
+2026-01-07 17:42:11 [INFO] Processed 1 turns in 3s
+2026-01-07 17:52:59 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:52:59 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 17:52:59 [INFO] Found       14 new messages
+2026-01-07 17:53:00 [INFO] Batch post succeeded: 12 runs
+2026-01-07 17:53:01 [INFO] Batch patch succeeded: 12 runs
+2026-01-07 17:53:01 [INFO] Created turn 1: db8a88da-8640-4808-8d45-8334da11b61c with 5 LLM call(s)
+2026-01-07 17:53:01 [INFO] Processed 1 turns in 2s
+2026-01-07 17:58:47 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 17:58:47 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 17:58:47 [INFO] Found        5 new messages
+2026-01-07 17:58:47 [INFO] Batch post succeeded: 2 runs
+2026-01-07 17:58:47 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 17:58:47 [INFO] Created turn 2: a8872d0f-f0a8-4dca-bc6f-720ec5257df8 with 1 LLM call(s)
+2026-01-07 17:58:47 [INFO] Processed 1 turns in 0s
+2026-01-07 18:00:39 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 18:00:39 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 18:00:39 [INFO] Found        4 new messages
+2026-01-07 18:00:40 [INFO] Batch post succeeded: 2 runs
+2026-01-07 18:00:40 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 18:00:40 [INFO] Created turn 3: 21ad2ba1-e3f5-44f7-98e3-a2de0645d08e with 1 LLM call(s)
+2026-01-07 18:00:40 [INFO] Processed 1 turns in 1s
+2026-01-07 18:00:59 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 18:00:59 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 18:01:00 [INFO] Found        4 new messages
+2026-01-07 18:01:00 [INFO] Batch post succeeded: 2 runs
+2026-01-07 18:01:00 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 18:01:00 [INFO] Created turn 4: 28a11702-a9de-4d9f-ab61-3a3907e93c7d with 1 LLM call(s)
+2026-01-07 18:01:00 [INFO] Processed 1 turns in 1s
+2026-01-07 18:03:10 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 18:03:10 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 18:03:10 [INFO] Found        4 new messages
+2026-01-07 18:03:11 [INFO] Batch post succeeded: 2 runs
+2026-01-07 18:03:11 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 18:03:11 [INFO] Created turn 5: 6a0878b6-27ea-4ff0-a85a-d64b650f8c3b with 1 LLM call(s)
+2026-01-07 18:03:11 [INFO] Processed 1 turns in 1s
+2026-01-07 18:04:13 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 18:04:13 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 18:04:13 [INFO] Found        4 new messages
+2026-01-07 18:04:14 [INFO] Batch post succeeded: 2 runs
+2026-01-07 18:04:14 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 18:04:14 [INFO] Created turn 6: 9d7f861a-e141-49e2-acd8-c02a9e79d3df with 1 LLM call(s)
+2026-01-07 18:04:14 [INFO] Processed 1 turns in 1s
+2026-01-07 18:05:02 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 18:05:03 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 18:05:03 [INFO] Found        4 new messages
+2026-01-07 18:05:03 [INFO] Batch post succeeded: 2 runs
+2026-01-07 18:05:03 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 18:05:03 [INFO] Created turn 7: 2d9f822e-fd28-4eeb-a83c-70a0760e86c8 with 1 LLM call(s)
+2026-01-07 18:05:03 [INFO] Processed 1 turns in 1s
+2026-01-07 18:05:24 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 18:05:24 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 18:05:24 [INFO] Found        4 new messages
+2026-01-07 18:05:24 [INFO] Batch post succeeded: 2 runs
+2026-01-07 18:05:25 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 18:05:25 [INFO] Created turn 8: ff92a05a-b2da-4cb8-b974-a8f0c01f7651 with 1 LLM call(s)
+2026-01-07 18:05:25 [INFO] Processed 1 turns in 1s
+2026-01-07 18:05:57 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 18:05:57 [INFO] Processing session ddd346ce-1323-400d-980e-3920a358ee24
+2026-01-07 18:05:57 [INFO] Found        4 new messages
+2026-01-07 18:05:57 [INFO] Batch post succeeded: 2 runs
+2026-01-07 18:05:57 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 18:05:57 [INFO] Created turn 9: 9a70e5de-bfc7-4268-85fc-b70843dc0d56 with 1 LLM call(s)
+2026-01-07 18:05:57 [INFO] Processed 1 turns in 0s
+2026-01-07 19:47:56 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:47:56 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:47:56 [INFO] Found       84 new messages
+2026-01-07 19:48:20 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:48:21 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:48:21 [INFO] Found       89 new messages
+2026-01-07 19:49:43 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:49:43 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:49:43 [INFO] Found       93 new messages
+2026-01-07 19:51:29 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:51:29 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:51:29 [INFO] Found       97 new messages
+2026-01-07 19:51:46 [INFO] Batch post succeeded: 78 runs
+2026-01-07 19:51:48 [INFO] Batch patch succeeded: 78 runs
+2026-01-07 19:51:48 [INFO] Created turn 1: 0812d203-2a32-4dfe-8b60-d30d87d1e51a with 37 LLM call(s)
+2026-01-07 19:51:49 [INFO] Batch post succeeded: 2 runs
+2026-01-07 19:51:49 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 19:51:49 [INFO] Created turn 2: 131510cf-64d8-4112-9c90-f0f96018ef7a with 1 LLM call(s)
+2026-01-07 19:51:49 [INFO] Batch post succeeded: 2 runs
+2026-01-07 19:51:49 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 19:51:49 [INFO] Created turn 3: 835f13bb-8ae9-4749-8b3f-9a974b4df844 with 1 LLM call(s)
+2026-01-07 19:51:50 [INFO] Batch post succeeded: 2 runs
+2026-01-07 19:51:50 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 19:51:50 [INFO] Created turn 4: fb1c3fa0-91de-4185-8423-ae815d64e815 with 1 LLM call(s)
+2026-01-07 19:51:50 [INFO] Processed 4 turns in 21s
+2026-01-07 19:52:14 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:52:14 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:52:14 [INFO] Found       12 new messages
+2026-01-07 19:52:15 [INFO] Batch post succeeded: 4 runs
+2026-01-07 19:52:15 [INFO] Batch patch succeeded: 4 runs
+2026-01-07 19:52:15 [INFO] Created turn 5: ade14ffd-a7b9-42c3-b6f5-a638f5f31dd1 with 2 LLM call(s)
+2026-01-07 19:52:15 [INFO] Processed 1 turns in 1s
+2026-01-07 19:54:47 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:54:47 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:54:47 [INFO] Found       27 new messages
+2026-01-07 19:54:48 [INFO] Batch post succeeded: 14 runs
+2026-01-07 19:54:49 [INFO] Batch patch succeeded: 14 runs
+2026-01-07 19:54:49 [INFO] Created turn 6: b306613c-fcdd-4323-ac6e-9d22544a8120 with 7 LLM call(s)
+2026-01-07 19:54:49 [INFO] Processed 1 turns in 2s
+2026-01-07 19:56:04 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:56:04 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:56:05 [INFO] Found        8 new messages
+2026-01-07 19:56:05 [INFO] Batch post succeeded: 2 runs
+2026-01-07 19:56:05 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 19:56:05 [INFO] Created turn 7: 6662bfea-565f-49a1-8d00-9ad40f80626c with 1 LLM call(s)
+2026-01-07 19:56:05 [INFO] Processed 1 turns in 1s
+2026-01-07 19:56:40 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:56:40 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:56:40 [INFO] Found        4 new messages
+2026-01-07 19:56:40 [INFO] Batch post succeeded: 2 runs
+2026-01-07 19:56:40 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 19:56:40 [INFO] Created turn 8: e97365fa-ef8b-4f40-adde-10b8bcaf9e39 with 1 LLM call(s)
+2026-01-07 19:56:41 [INFO] Processed 1 turns in 1s
+2026-01-07 19:57:29 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:57:29 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:57:29 [INFO] Found        4 new messages
+2026-01-07 19:57:30 [INFO] Batch post succeeded: 2 runs
+2026-01-07 19:57:30 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 19:57:30 [INFO] Created turn 9: 0b7b3480-d4f7-4c65-b0b3-c3e7005a0f8d with 1 LLM call(s)
+2026-01-07 19:57:30 [INFO] Processed 1 turns in 1s
+2026-01-07 19:58:38 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 19:58:38 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 19:58:38 [INFO] Found        4 new messages
+2026-01-07 19:58:39 [INFO] Batch post succeeded: 2 runs
+2026-01-07 19:58:39 [INFO] Batch patch succeeded: 2 runs
+2026-01-07 19:58:39 [INFO] Created turn 10: a3412b68-3670-4b84-b9df-fdb1c85d961f with 1 LLM call(s)
+2026-01-07 19:58:39 [INFO] Processed 1 turns in 1s
+2026-01-07 20:02:41 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-07 20:02:41 [INFO] Processing session f3b4a052-04df-4fe0-87ed-8f4c642b4e9a
+2026-01-07 20:02:41 [INFO] Found       34 new messages
+2026-01-07 20:02:42 [INFO] Batch post succeeded: 6 runs
+2026-01-07 20:02:42 [INFO] Batch patch succeeded: 6 runs
+2026-01-07 20:02:42 [INFO] Created turn 11: 5063d1cf-5425-4dd7-85b9-7192c60a5e75 with 2 LLM call(s)
+2026-01-07 20:02:46 [INFO] Batch post succeeded: 19 runs
+2026-01-07 20:02:46 [INFO] Batch patch succeeded: 19 runs
+2026-01-07 20:02:46 [INFO] Created turn 12: 1139af78-b7e5-4b82-a274-c575e8de181a with 9 LLM call(s)
+2026-01-07 20:02:46 [INFO] Processed 2 turns in 5s
+2026-01-09 04:50:36 [DEBUG] Hook started, TRACE_TO_LANGSMITH=true
+2026-01-09 04:50:36 [INFO] Processing session d20d35db-ac63-4ab3-abc8-5790dc600be5
+2026-01-09 04:50:36 [INFO] Found       79 new messages
+2026-01-09 04:51:13 [INFO] Batch post succeeded: 53 runs
+2026-01-09 04:51:16 [INFO] Batch patch succeeded: 53 runs
+2026-01-09 04:51:16 [INFO] Created turn 1: 9275f161-e97d-4608-a324-8f3bfc2bbea9 with 14 LLM call(s)
+2026-01-09 04:51:16 [INFO] Processed 1 turns in 40s

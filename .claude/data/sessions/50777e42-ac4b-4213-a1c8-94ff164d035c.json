@@ -1,0 +1,8 @@
+{
+  "session_id": "50777e42-ac4b-4213-a1c8-94ff164d035c",
+  "prompts": [
+    "Right, here in the main branch, I would like for you to take out anything in here related to multi-agent collaboration just here in the main branch.",
+    "<ide_opened_file>The user opened the file /Users/b.c.nims/kastalien-research/thoughtbox/src/CAPABILITIES.md in the IDE. This may or may not be related to the current task.</ide_opened_file>\nlet's just git pull from remote"
+  ],
+  "agent_name": "Zenith"
+}

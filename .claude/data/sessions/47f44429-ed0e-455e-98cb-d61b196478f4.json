@@ -1,0 +1,11 @@
+{
+  "session_id": "47f44429-ed0e-455e-98cb-d61b196478f4",
+  "prompts": [
+    "/thoughtbox:list_mcp_assets (MCP) ",
+    "I think that's pretty out of date --> we should update it. i may be wrong. the prompt, that is",
+    "Generate it dynamically - Have it read from the same source as CAPABILITIES.md so they stay in sync",
+    "You want to use the server in some way to test the changes?",
+    "/thoughtbox:list_mcp_assets (MCP) "
+  ],
+  "agent_name": "Nexus"
+}

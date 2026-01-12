@@ -1,0 +1,7 @@
+{
+  "session_id": "24c378ce-3430-4a74-867e-35e29919b2a9",
+  "prompts": [
+    "Hello Claude, I would like for you to read the attached blog post. @glassBead-thoughtbox-blog.md  \\\n\\\nlTake a look at the bottom where I offer a few potential paths for extending the ThoughtBox pattern. I would like for you to choose one of these to implement yourself while using this Thoughtbox server to enable very long reasoning processes and different ways of structuring your thinking. \\\n\\\nProduce a markdown specification in the specs folder describing the state of the codebase after a process has been executed to align the codebase with whatever your vision of what the codebase should be to implement the pattern you chose."
+  ],
+  "agent_name": "Nexus"
+}

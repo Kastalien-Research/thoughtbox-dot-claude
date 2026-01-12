@@ -1,0 +1,7 @@
+{
+  "session_id": "6a1f9515-cf68-4277-9889-6ca41bfc1ce7",
+  "prompts": [
+    "Alright, consider at a high level what the purpose of this server is. One of the purposes of this server is to have agents create an addressable record of their reasoning, which agents are then able to go back and look at over time after the fact, which breaks LLMs out of the linear token stream of predicting the next token. Because if the agent can see its previous reasoning, it can potentially improve on it.\n\nThe second thing that this server is meant to do is be a context engine for a domain. So you could think of a domain as a code base. What would we need to do to make this server better at achieving those aims? And look at the code base as well as using the server yourself as a user to come up with this. Use about 100 thoughts, and call the thoughtbox_cipher tool first"
+  ],
+  "agent_name": "Echo"
+}

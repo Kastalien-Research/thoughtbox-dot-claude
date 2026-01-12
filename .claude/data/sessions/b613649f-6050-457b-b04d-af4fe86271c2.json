@@ -1,0 +1,9 @@
+{
+  "session_id": "b613649f-6050-457b-b04d-af4fe86271c2",
+  "prompts": [
+    "/workflows:spec-designer ",
+    "The idea is that you should be able to call it over and over again until you come to a... until you come to a structured form of reasoning, whatever you call these things. It might be good to have some resources set up like mental models. I don't know, maybe we trade in mental models? I don't know.",
+    "/workflows:spec-designer Sorry, no, that wasn't it. The message didn't get through. What I said was I wanted you to build a new tool based on this. @reasoning-stuff/reasoning-decision-tree.md --> Yeah, maybe you should be able to call it over and over until you get to the approach that you want. I don't know, there's a lot of ways that you can implement this. Another way that you could end up implementing this is that there could be ambient numbers estimating the different properties referred to there. "
+  ],
+  "agent_name": "Oracle"
+}

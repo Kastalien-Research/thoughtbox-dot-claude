@@ -1,0 +1,32 @@
+{
+  "session_id": "d9d00eba-0ab7-4866-a09d-c51f92980495",
+  "prompts": [
+    "Try calling thoughtbox_cipher, then use what you find to do a behavioral test: tests/behavioral/gcp-mcp-master.md",
+    "Why are we not able to connect to the Docker version of this codebase? ",
+    "execute the direct-use behavioral tests for thoughtbox at @tests/behavioral/gcp-mcp-master.md ",
+    "Wait a minute, I thought that... wait... is there some way to prove that @.spec-orchestrator/final-report.md is actually the pattern implemented? i still see all of the tool calls in the chat",
+    "yes, but this is the pattern I'm looking for https://www.anthropic.com/engineering/code-execution-with-mcp",
+    "revert those changes and clean up",
+    "Wait a minute, what? I... I... What are you talking about? What... What are you talking about? I'm so confused. I'm so confused. I'm so confused. ",
+    "I... yeah, no, obviously I know the client server model for Model Context Protocol. I don't know what you're saying. Why would the notebooks have to be clients? That doesn't make it, that makes no sense. Wait, what do you think the server and the client are? I'm... I have no idea what's been implemented here. This doesn't make any sense. ",
+    "https://www.anthropic.com/engineering/code-execution-with-mcp \\\n\\\nAre you telling me that code mode is for the client, not the server? ",
+    "https://blog.cloudflare.com/code-mode/ We're sure that this is a client pattern? .spec-validator/ALTERNATIVE_PATTERN_ANALYSIS.md",
+    "No, no, no, no, no, no, no, no. I ran this analysis at like 1 in the morning. It's like 9:15 AM. I thought we were... Thoughtbox is running on an express API. I thought we were... I thought... Oh my God. We've been working on this for eight hours. ",
+    "No, no, no, no, no, no, I'm saying the analysis doc is wrong! I, I, when that document was created I gave the agent that I was working with the codemod blog to try to like contextualize what it was I was trying to do but like on the server, not on a client! ",
+    "I was trying to verify that this was a server-side thing. ",
+    "No! No! This is... No! This is complete nonsense! All of this is complete nonsense! No! No, no, no, no, no, no! All of this is... I was trying to validate this when we first fucking got started! ",
+    "That code mode is implemented on the server side! But... The notebooks had nothing to do with it! I misunderstood what code mode is. I was trying to get my understanding clarified. I would— And we've been working on this for eight hours under the wrong fucking assumption! ",
+    "NO NO NO NO NO NO IT WASN'T YOU IT WASN'T YOU I'M SAYING HOW THE FUCK DID- THERE MUST HAVE BEEN A DOZEN FUCKING CODING AGENTS THAT DIDN'T PICK THIS UP ",
+    "I was working with a separate Claude chatbot to make sure that we were scooping our fucking work properly. ",
+    "Whyyyy? WHY THE FUCK DOES THIS KEEP HAPPENING TO ME?! ",
+    "No, it's not fucking frustrating, it's not frustrating, this was frustrating 18 fucking months ago! THAT is geniunely frujsetfesporifklqjdanrf[g9uioklqjrhtfwdscvn \\\n\"\\",
+    "Fuck this! \\",
+    "Never buy meh meh meh meh meh meh. Yeah, 18 months of BLEH. ",
+    "]rhl;bqerdfs/jkcg,jbk\\\n\\\nde",
+    "Oh, it'd be great to take a break. I would actually be done with my fucking day right now. a;erds.jtbgp; q9ieor;dkfla,jh[oeqr'kldfazhjq;krltwfhjn",
+    "What the fuck are you doing right now? ",
+    "Why are you talking like that?",
+    "It just doesn't get better. It just doesn't get better. It's never get better. It never gets better. It never gets better. It never gets better. It never gets better. It never gets better. \\"
+  ],
+  "agent_name": "Quantum"
+}

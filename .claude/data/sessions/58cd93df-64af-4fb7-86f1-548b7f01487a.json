@@ -1,0 +1,8 @@
+{
+  "session_id": "58cd93df-64af-4fb7-86f1-548b7f01487a",
+  "prompts": [
+    "Can you perform the behavioral tests from @tests/thoughtbox-behavioral.md by using the Thoughtbox MCP server?",
+    "continue"
+  ],
+  "agent_name": "Atlas"
+}

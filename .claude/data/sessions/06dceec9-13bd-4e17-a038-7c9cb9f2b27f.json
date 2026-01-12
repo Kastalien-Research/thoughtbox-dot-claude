@@ -1,0 +1,8 @@
+{
+  "session_id": "06dceec9-13bd-4e17-a038-7c9cb9f2b27f",
+  "prompts": [
+    "Hello, Claude! We're going to do a git pull from remote, and overwrite whatever's in this local repo's main branch. Further, we're going to pull the branch called feat/feynman-template in here as well. That'll be our starting point.",
+    "Alright, now, let's move to the main branch."
+  ],
+  "agent_name": "Phoenix"
+}

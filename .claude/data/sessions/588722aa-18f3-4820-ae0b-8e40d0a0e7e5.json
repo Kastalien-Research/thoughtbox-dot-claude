@@ -1,0 +1,9 @@
+{
+  "session_id": "588722aa-18f3-4820-ae0b-8e40d0a0e7e5",
+  "prompts": [
+    "Use Thoughtbox to run the full list of behavioral tests at this location. @tests/behavioral/gcp-mcp-master.md --> Generate a report when you are done of what passed, what failed, and if anything failed, what happened. ",
+    "Can you add a note to the master behavioral spec, noting the thing about the package.json in the notebooks? @tests/behavioral/gcp-mcp-master.md ",
+    "Produce a markdown report containing the report you gave me here in the chat using the name BEHAVIORAL_TEST_REPORT_CLAUDE_CODE.md"
+  ],
+  "agent_name": "Phoenix"
+}

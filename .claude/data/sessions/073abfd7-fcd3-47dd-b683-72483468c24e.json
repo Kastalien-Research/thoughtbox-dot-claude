@@ -1,0 +1,9 @@
+{
+  "session_id": "073abfd7-fcd3-47dd-b683-72483468c24e",
+  "prompts": [
+    "take a look at the commands in the .claude/commands/ folder --> then read https://docs.roocode.com/features/slash-commands and determine how we can copy our Claude commands over into the .roo/ folder and adjust for compatibility with Roo Code",
+    "Now, engage in a similar process with .claude/skills/ --> .roo/skills/ https://docs.roocode.com/features/skills",
+    "I approve this idea: move those to mode-specific directories"
+  ],
+  "agent_name": "Quantum"
+}

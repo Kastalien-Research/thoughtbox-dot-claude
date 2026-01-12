@@ -1,0 +1,13 @@
+{
+  "session_id": "be96aad3-37c9-4c45-9cca-ddf1f9883d23",
+  "prompts": [
+    "Hey, we're not able to connect to Thoughtbox anymore: what happened?",
+    "dude, that's not the config cc_mcp_config.json",
+    "WHAT FOLDER AREYOU IN",
+    "IT ISN\"T IN DOT CLAUDE IT'S LITERALLY cc_mcp_config.json",
+    "NO THAT IS NOT CORRECT",
+    "\n> /mcp \n  ⎿  Failed to reconnect to thoughtbox.",
+    "It's not with the config, why would you still think it's with the config"
+  ],
+  "agent_name": "Quantum"
+}

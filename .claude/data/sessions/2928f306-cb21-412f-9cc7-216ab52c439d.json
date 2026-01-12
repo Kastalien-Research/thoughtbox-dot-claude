@@ -1,0 +1,8 @@
+{
+  "session_id": "2928f306-cb21-412f-9cc7-216ab52c439d",
+  "prompts": [
+    "Can you use Thoughtb ox",
+    "Try calling thoughtbox_cipher, then use what you find to do a behavioral test: tests/behavioral/gcp-mcp-master.md"
+  ],
+  "agent_name": "Sage"
+}

@@ -1,0 +1,8 @@
+{
+  "session_id": "6044bbd1-abfb-42d6-b7ad-ed04e414a647",
+  "prompts": [
+    "Fixed: there was a conflicting entry in the cc_mcp_config.json file. We can run the behavioral tests now",
+    "They are not scripts: I thought I developed some tests for you to run as a user of the server"
+  ],
+  "agent_name": "Quantum"
+}

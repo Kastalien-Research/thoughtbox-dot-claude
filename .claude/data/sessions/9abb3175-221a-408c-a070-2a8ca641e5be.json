@@ -1,0 +1,7 @@
+{
+  "session_id": "9abb3175-221a-408c-a070-2a8ca641e5be",
+  "prompts": [
+    "fly secrets set ADMIN_SECRET=openssl rand -base64 32fly deploy -a thoughtbox-prod --local-only"
+  ],
+  "agent_name": "Cipher"
+}

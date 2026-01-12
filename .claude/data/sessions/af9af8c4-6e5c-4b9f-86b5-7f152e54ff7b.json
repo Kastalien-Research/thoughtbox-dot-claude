@@ -1,0 +1,17 @@
+{
+  "session_id": "af9af8c4-6e5c-4b9f-86b5-7f152e54ff7b",
+  "prompts": [
+    "I'd like for you to engage in a long process that tests all of the capabilities, operations, resources, and in general everything else but prompts that this server offers.",
+    "Okay, you're connected now. Let's try again",
+    "Now, I'd like for you to engage in a long thinking process that uses the appropriate capabilities and lots of thoughts --> Consider what fitness functions might look like in the context of an agent using Thoughtbox to consider its own reasoning processes.",
+    "Fantastic: we could also potentially use the Claude Agent SDK to create an \"agentic script\" that can be triggered at-will by the agent (i.e. we call Claude programmatically and it reviews a given chain of reasoning using the criteria of the fitness function you've described.",
+    "https://platform.claude.com/docs/en/agent-sdk/overview",
+    "Create a new git branch implementing this design",
+    "continue",
+    "Test out the fitness capabilities. you may wish to formulate a process that you can engage in that will result in a specific chain of reasoning that you can use them on",
+    "continue",
+    "/thoughtbox:list_mcp_assets (MCP) ",
+    "update the list_mcp_assets prompt to include all current capabilities"
+  ],
+  "agent_name": "Atlas"
+}

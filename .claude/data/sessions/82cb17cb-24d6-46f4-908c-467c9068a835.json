@@ -1,0 +1,7 @@
+{
+  "session_id": "82cb17cb-24d6-46f4-908c-467c9068a835",
+  "prompts": [
+    "/development:exe-parallel \"specs/interleaved-thinking-resource-templates.md\" \"3\" \"resource-template-fix\""
+  ],
+  "agent_name": "Atlas"
+}

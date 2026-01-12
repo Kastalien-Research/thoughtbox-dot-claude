@@ -1,0 +1,7 @@
+{
+  "session_id": "8b8ebae6-df08-437e-b337-4b76279c934a",
+  "prompts": [
+    "/thoughtbox:interleaved-thinking (MCP) task=\"Engage in an open-ended discovery process here in the codebase to identify opportunities for improving performance. When you are done, produce a markdown report in the reports folder. Be sure to use your web search tools and any other tools that you have available to ground your problem-solving process.\" thoughts_limit=150 clear_folder=true"
+  ],
+  "agent_name": "Atlas"
+}

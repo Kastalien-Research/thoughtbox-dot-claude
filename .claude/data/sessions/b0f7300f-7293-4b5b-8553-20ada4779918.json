@@ -1,0 +1,17 @@
+{
+  "session_id": "b0f7300f-7293-4b5b-8553-20ada4779918",
+  "prompts": [
+    "We're not able to connect to Thoughtbox via MCP --> let's see what our entry point is for stdio, what's configured in package.json, and what's getting in the way of essential functionality",
+    "Yes, okay, could you just explain to me one more time? I know I've been an absolute broken record with this, but just one more time: why do we have to have all of these different entry points? Why can't they all just be in the index.js? That's what I don't understand. Can you just tell me one more time? ",
+    "So again, I need you to slow down, okay? Why can't all of these entry points be in the index.js? ",
+    "I'm gonna need some proof that separate files is the conventional pattern. ",
+    "What year do you think it is? ",
+    "So, for none of this time, and none of these chats, there has been any proof. Is that what we're saying? ",
+    "So tell me again, why can't we connect? What happened? ",
+    "So, run standard I/O server. We're defining that in the index file. Are you absolutely sure? And just to ask you this one more time: now that I know that I've heard a response 14 or 15 times over the last 12 hours without any proof, where is your—have we proven that the regular Model Context Protocol SDK does not have a means of doing this and that we have to define it ourselves? ",
+    "Okay, that's fine. So what do you mean that that function never gets called? ",
+    "Okay. Go ahead and do that. Then we're gonna test it again, okay? ",
+    "Hey Claude, there's an awful lot in this dist folder that's not in the source folder. This stuff about UI thinking, all of that being separate, that's been gone from the source code for a long time. In the last couple of sessions, why is this still here? How is it still here? That's the better question. "
+  ],
+  "agent_name": "Cipher"
+}

@@ -1,0 +1,8 @@
+{
+  "session_id": "7d78857d-9bf5-4b39-88b5-90858a6b1688",
+  "prompts": [
+    "Hello Claude, I would like for you to take a look at the MCP UI folder and take a look at how that project enables MCP native UI experiences. Then, I would like for you to write a new markdown file in the specs folder describing the state of the codebase after we add MCPUI to it to allow observability on an agent's thought process. So the concepts would be that as you go through a reasoning process with many thoughts in it, that this would be documented somewhere on the server and that we would be able to see it as a visual resource, the whole chain of reasoning. ",
+    "Create a new Git branch and implement this specification in three parallel Git worktrees. Use Task Agents "
+  ],
+  "agent_name": "Oracle"
+}
