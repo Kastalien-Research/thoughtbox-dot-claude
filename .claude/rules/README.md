@@ -24,20 +24,18 @@ This directory contains **domain-specific memory** that helps Claude agents lear
 ├── TEMPLATE.md             # Template for new rules files
 │
 ├── tools/                  # Tool-specific patterns
-│   ├── thoughtbox.md      [Auto-loads for: src/index.ts, src/thought-handler.ts]
-│   ├── notebook.md        [Auto-loads for: src/notebook/**]
-│   └── mental-models.md   [Auto-loads for: src/mental-models/**]
+│   └── [tool-name].md     [Auto-loads for: src/[tool]/**]
 │
 ├── infrastructure/         # System-level patterns
-│   ├── firebase.md        [Auto-loads for: src/firebase.ts, src/persistence/firestore.ts]
+│   ├── database.md        [Auto-loads for: src/db/**, src/persistence/**]
 │   ├── middleware.md      [Auto-loads for: src/middleware/**]
-│   └── deployment.md      [Auto-loads for: Dockerfile, cloudbuild.yaml]
+│   └── deployment.md      [Auto-loads for: Dockerfile, *.yaml]
 │
 ├── testing/                # Testing conventions
-│   └── behavioral-tests.md [Auto-loads for: tests/**, scripts/agentic-test.ts]
+│   └── testing.md         [Auto-loads for: tests/**, **/*.test.ts]
 │
 ├── lessons/                # Cross-cutting learnings (timestamped)
-│   └── 2026-01-version-control-safety.md
+│   └── YYYY-MM-[topic].md
 │
 └── active-context/         # Current work state
     └── current-focus.md
@@ -88,7 +86,7 @@ When capturing significant insights, use this format:
 /read .claude/rules/active-context/current-focus.md
 
 # 2. Work on files (rules auto-load)
-/read src/notebook/executor.ts  # Loads rules/tools/notebook.md automatically
+/read src/feature/handler.ts  # Loads rules/tools/feature.md automatically
 
 # 3. Capture learning when done
 /meta capture-learning
@@ -146,10 +144,10 @@ git commit -m "Add memory for new-tool"
 
 | Domain | What Goes Here | Example |
 |--------|----------------|---------|
-| **tools/** | Tool implementation patterns | Thoughtbox thought chain logic |
-| **infrastructure/** | System-level patterns | Firebase initialization, middleware |
-| **testing/** | Testing conventions | Behavioral test format |
-| **lessons/** | Cross-cutting learnings | Version control safety |
+| **tools/** | Tool implementation patterns | API handler logic, CLI commands |
+| **infrastructure/** | System-level patterns | Database initialization, middleware |
+| **testing/** | Testing conventions | Test format, test runners |
+| **lessons/** | Cross-cutting learnings | Version control safety, debugging patterns |
 | **active-context/** | Current work state | What we're working on now |
 
 ### By Freshness
@@ -163,21 +161,21 @@ git commit -m "Add memory for new-tool"
 ### Single File
 ```yaml
 ---
-paths: [src/firebase.ts]
+paths: [src/database.ts]
 ---
 ```
 
 ### Directory
 ```yaml
 ---
-paths: [src/notebook/**]
+paths: [src/api/**]
 ---
 ```
 
 ### Multiple Patterns
 ```yaml
 ---
-paths: [src/middleware/**, tests/middleware.md]
+paths: [src/middleware/**, tests/middleware/**]
 ---
 ```
 
@@ -194,9 +192,9 @@ When writing rules, link to related information:
 
 ```markdown
 **See Also**:
-- `.claude/rules/infrastructure/firebase.md` - Firebase patterns
+- `.claude/rules/infrastructure/database.md` - Database patterns
 - `AGENTS.md` - Architectural overview
-- `docs/MEMORY_SYSTEM_DESIGN.md` - Full design doc
+- `docs/ARCHITECTURE.md` - System design docs
 ```
 
 ## Commands
@@ -230,12 +228,12 @@ When writing rules, link to related information:
 ### Good Learning Entry
 
 ```markdown
-### 2026-01-09: Firestore Emulator Init Order 🔥
-- **Issue**: Tests failed despite emulator running
-- **Solution**: Set FIRESTORE_EMULATOR_HOST before firebase imports
-- **Files**: `scripts/agentic-test.ts:1-5`, `src/firebase.ts:3`
+### 2026-01-09: Database Connection Init Order 🔥
+- **Issue**: Tests failed despite database running
+- **Solution**: Set DATABASE_URL environment var before module imports
+- **Files**: `scripts/test-runner.ts:1-5`, `src/database.ts:3`
 - **Pattern**: Environment vars affecting module imports must be set at entry point
-- **See Also**: `.claude/rules/testing/behavioral-tests.md`
+- **See Also**: `.claude/rules/testing/testing.md`
 ```
 
 ### Bad Learning Entry
@@ -263,6 +261,5 @@ This memory system treats knowledge as:
 
 **See Also**:
 - `00-meta.md` - Comprehensive memory system guide
-- `CLAUDE.md` - Memory system entry point
-- `docs/MEMORY_SYSTEM_DESIGN.md` - Full design documentation
-- `AGENTS.md` - Project architecture and conventions
+- `CLAUDE.md` - Project-level Claude instructions (create as needed)
+- `AGENTS.md` - Project architecture and conventions (create as needed)

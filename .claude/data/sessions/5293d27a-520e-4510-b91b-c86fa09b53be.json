@@ -1,8 +1,0 @@
-{
-  "session_id": "5293d27a-520e-4510-b91b-c86fa09b53be",
-  "prompts": [
-    "Hello, Claude. So, in this chat, you and I are going to be going back and forth just at a conceptual level. I am going to be updating Thoughtbox to support primitives and utilities from the newest Model Context Protocol specification. These new features and utilities are documented in your mcp-builder skill. \\\n\\\nI would like for you to take a look at the codebase and at the docs at local-docs/mcp-spec-2025-11-25-jan26/ , as well as use Thoughtbox yourself as a user, to get a sense of the opportunities that this update opens up. Hint: Thoughtbox can become very, VERY powerful with some of these, especially sampling with tools.\\\n\\\nWrite a markdown report in a reports/ folder at the root of the project describing some high-utility updates that *you* would find useful to have on Thoughtbox. Remember: you are the intended user for this tool --> its existence is meant to maximize your utility.",
-    "Use Thoughtbox to reason through and validate or disprove the hypothesis at @reports/sampling-with-tools-compression-hypothesis.md --> produce a markdown report in the reports/ folder with your findings."
-  ],
-  "agent_name": "Oracle"
-}

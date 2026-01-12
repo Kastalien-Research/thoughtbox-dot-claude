@@ -1,7 +1,0 @@
-{
-  "session_id": "e94c5abc-d65c-4061-a33b-7f70aca3a60e",
-  "prompts": [
-    "<ide_opened_file>The user opened the file /Users/b.c.nims/Library/Application Support/Windsurf/User/globalStorage/rooveterinaryinc.roo-cline/settings/mcp_settings.json in the IDE. This may or may not be related to the current task.</ide_opened_file>\nCan you remove the git repo from the mcp-ui folder? it's just a reference for us to use and it's blocking Roo Code from checkpointing"
-  ],
-  "agent_name": "Nexus"
-}

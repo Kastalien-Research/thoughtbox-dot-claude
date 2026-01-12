@@ -1,7 +1,0 @@
-{
-  "session_id": "e2601029-1192-4277-8289-558d1448b1c0",
-  "prompts": [
-    "Hello Claude, I would like for you to perform a long reasoning process and reason about how we could support Beam Search in this server. Before you get started, call the Thoughtbox Cypher tool to get an overview of the token efficient notation that Thoughtbox offers and then engage in a reasoning process that goes up and down the chain of reasoning forward and backward for about 30 thoughts. "
-  ],
-  "agent_name": "Nova"
-}

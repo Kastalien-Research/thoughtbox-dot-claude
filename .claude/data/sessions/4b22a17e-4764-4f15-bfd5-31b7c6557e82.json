@@ -1,9 +1,0 @@
-{
-  "session_id": "4b22a17e-4764-4f15-bfd5-31b7c6557e82",
-  "prompts": [
-    "Good evening, Claude. We're going to be implementing the @specs/01-template-embedding.md specification in this session. I'd like you to plan out how you want to do this, then I'll review the plan and it'll be off to the races.",
-    "Alright, I've rebuilt the Thoughtbox server and committed all relevant files to version control, and I've restarted Claude Code. Let's see if you can access and use the template as expected.",
-    "Thanks, but you should use the MCP server to test: simply reading the files does not validate that you can actually use the template"
-  ],
-  "agent_name": "Echo"
-}

@@ -1,7 +1,0 @@
-{
-  "session_id": "f45d315b-4bfa-4e9a-b63e-0554d6aaaa2d",
-  "prompts": [
-    "/workflows:spec-designer review the project at @observatory-mocha-demo/ --> the backend doesn't matter at all. this is a mockup of a new UI for the HTTP observatory that we're serving over websockets. I want you to pay attention to which libraries are used and how they're integrated into the HTML, then write a specification describing how we could implement the UI in our Thoughtbox server's WS-served observatory for the reasoning process the agent using it is executing, which I can look at in a browser."
-  ],
-  "agent_name": "Phoenix"
-}

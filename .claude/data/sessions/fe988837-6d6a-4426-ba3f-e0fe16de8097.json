@@ -1,7 +1,0 @@
-{
-  "session_id": "fe988837-6d6a-4426-ba3f-e0fe16de8097",
-  "prompts": [
-    "/development:parallel-executor implement specs/cli-init-flow.md in parallel Git worktrees using Task agents in parallel"
-  ],
-  "agent_name": "Zenith"
-}

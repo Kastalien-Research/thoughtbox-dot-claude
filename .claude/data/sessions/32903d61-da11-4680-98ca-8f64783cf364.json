@@ -1,7 +1,0 @@
-{
-  "session_id": "32903d61-da11-4680-98ca-8f64783cf364",
-  "prompts": [
-    "Hey Claude, I'd like you to reference the specs for Sampling integration into our MCP server (https://modelcontextprotocol.io/specification/2025-06-18/client/sampling) using Thoughtbox and Letta memory, as well as Firecrawl's tools, to see how much of this is accurate, how much is wise, and how much we should leave where it is."
-  ],
-  "agent_name": "Echo"
-}

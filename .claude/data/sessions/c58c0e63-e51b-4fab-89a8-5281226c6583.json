@@ -1,8 +1,0 @@
-{
-  "session_id": "c58c0e63-e51b-4fab-89a8-5281226c6583",
-  "prompts": [
-    "/workflows:spec-orchestrator .specs/multi-agent/",
-    "Go ahead and register those new MCP tools to be exposed via the MCP server. Once we get done with that, we're going to write some behavioral tests. Really, really good job. "
-  ],
-  "agent_name": "Oracle"
-}

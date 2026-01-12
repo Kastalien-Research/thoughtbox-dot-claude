@@ -103,18 +103,18 @@ See CLAUDE.md for memory system guide
 
 **Output to agent** (if patterns found):
 ```
-🎯 **Coverage Gaps Detected:**
+Coverage Gaps Detected:
 
 Files with frequent access but no memory rules:
-  - src/sampling/handler.ts (5x accessed)
+  - src/api/handler.ts (5x accessed)
   - src/templates/index.ts (4x accessed)
 
 Consider creating path-specific rules for these files.
 
-🔁 **Repeated Issues:**
+Repeated Issues:
 
 Same problems encountered multiple times:
-  - "Firestore connection timeout" (3x)
+  - "Database connection timeout" (3x)
   - "Session validation failed" (2x)
 
 These should be documented in .claude/rules/lessons/
@@ -185,14 +185,14 @@ All calibration data is stored in `.claude/state/`:
 {
   "coverage_gaps": [
     {
-      "file": "src/sampling/handler.ts",
+      "file": "src/api/handler.ts",
       "access_count": 5,
       "detected": "2026-01-09 10:30:15"
     }
   ],
   "repeated_issues": [
     {
-      "error": "Firestore connection timeout",
+      "error": "Database connection timeout",
       "count": 3,
       "detected": "2026-01-09 11:45:22"
     }
@@ -312,48 +312,48 @@ jq '.repeated_issues | sort_by(-.count) | .[0:5]' .claude/state/memory-calibrati
 
 ### Detection
 ```
-[$timestamp] ⚠️  Coverage Gap: src/sampling/handler.ts accessed 5x but no memory rules found
+[$timestamp] Coverage Gap: src/api/handler.ts accessed 5x but no memory rules found
 ```
 
 ### Resolution
-1. Create `.claude/rules/tools/sampling.md`:
+1. Create `.claude/rules/tools/api.md`:
 ```markdown
 ---
-paths: [src/sampling/**]
+paths: [src/api/**]
 ---
 
-# Sampling Tool Memory
+# API Handler Memory
 
 ## Recent Learnings
 
-### 2026-01-09: Sampling Handler Patterns 🔥
-- **Issue**: Understanding how sampling parameters affect responses
+### 2026-01-09: API Handler Patterns
+- **Issue**: Understanding how API parameters are validated
 - **Solution**: [Document the pattern]
-- **Files**: `src/sampling/handler.ts:50-80`
+- **Files**: `src/api/handler.ts:50-80`
 - **Pattern**: [Reusable principle]
 ```
 
-2. Next agent working on `src/sampling/handler.ts` → Rules auto-load → No more gap
+2. Next agent working on `src/api/handler.ts` → Rules auto-load → No more gap
 
 ## Example: Repeated Issue Resolution
 
 ### Detection
 ```
-[$timestamp] 🔁 Repeated Issue: "Firestore connection timeout" seen 3x
+[$timestamp] Repeated Issue: "Database connection timeout" seen 3x
 ```
 
 ### Resolution
-1. Add to `.claude/rules/infrastructure/firebase.md`:
+1. Add to `.claude/rules/infrastructure/database.md`:
 ```markdown
-### 2026-01-09: Firestore Connection Timeouts 🔥
-- **Issue**: Intermittent Firestore connection timeouts in tests
-- **Solution**: Set FIRESTORE_EMULATOR_HOST before imports
-- **Files**: `scripts/agentic-test.ts:1-5`
+### 2026-01-09: Database Connection Timeouts
+- **Issue**: Intermittent database connection timeouts in tests
+- **Solution**: Set DATABASE_URL before module imports
+- **Files**: `scripts/test-runner.ts:1-5`
 - **Pattern**: Environment vars affecting module imports must be set early
-- **See Also**: `.claude/rules/testing/behavioral-tests.md`
+- **See Also**: `.claude/rules/testing/testing.md`
 ```
 
-2. Next agent hits same issue → Finds solution in firebase.md → Problem solved immediately
+2. Next agent hits same issue → Finds solution in database.md → Problem solved immediately
 
 ## Testing Hooks
 

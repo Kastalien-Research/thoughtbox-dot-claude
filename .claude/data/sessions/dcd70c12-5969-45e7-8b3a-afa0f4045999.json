@@ -1,7 +1,0 @@
-{
-  "session_id": "dcd70c12-5969-45e7-8b3a-afa0f4045999",
-  "prompts": [
-    "Okay, we are connected to the server now. Now, I would like you to take a look at some of these behavioral tests that we have from the main ThoughtBox tool and just run these operations as a user of the server. @tests/thoughtbox-behavioral.md "
-  ],
-  "agent_name": "Quantum"
-}

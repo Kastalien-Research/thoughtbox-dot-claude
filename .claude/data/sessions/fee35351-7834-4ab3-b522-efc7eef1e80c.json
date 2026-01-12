@@ -1,8 +1,0 @@
-{
-  "session_id": "fee35351-7834-4ab3-b522-efc7eef1e80c",
-  "prompts": [
-    "Alright, let's checkout the main branch and pull the changes from GitHub, then let's clean up this repo --> we've got a bunch of stuff in the main branch that doesn't work at this point and which we can work on from other branches in the future. We need to get rid of the drizzle folder, and the files at root --> DOCKER_ARCHITECTURE.md, AGENTS.md, Dockerfile, docker-compose.yml",
-    "push it to GitHub, yes."
-  ],
-  "agent_name": "Nova"
-}

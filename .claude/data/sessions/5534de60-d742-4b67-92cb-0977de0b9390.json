@@ -1,9 +1,0 @@
-{
-  "session_id": "5534de60-d742-4b67-92cb-0977de0b9390",
-  "prompts": [
-    "I'd like you to read through each of the files in the @mcp-specs/2025-11-25 folder --> then review the spec at @specs/docker-local-first/README.md to ensure full fidelity to the current spec. Ask me questions about any disparities you find",
-    "1. Yes, normalize all protocol version references to 2025-11-25. \\\n2. Yes. Add SSE polling/resumability documentation \\\n3. Integrate Tasks feature into main spec --> yes \\\n4. This is pure slop from the previous agent. There is no need to specify this: there is a protocol *version* and a protocol *specification*, these are not the same thing, and we don't need to deal with it \\\n5. Wait, explain this: this doesn't make sense to me at all \\\n6. We could do that, yes, but it's not vital right now \\\n7. No, that's fine \\\n8. This seems...low-level for a refactor --> is this document that we're updating even scoped to the specific refactor we're doing? \\\n9. There's no reason this table should even exist, I never asked the agent that made this for that at all \\\n10. Deeply unfortunately, most popular MCP clients don't support any of these three primitives. That's why they aren't include3d",
-    "Proceed with updates"
-  ],
-  "agent_name": "Atlas"
-}

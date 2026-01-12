@@ -1,8 +1,0 @@
-{
-  "session_id": "e9d9d7ee-db8f-44ac-bef3-2605c7327121",
-  "prompts": [
-    "get the thoughtbox://interleaved/research resource from the thoughtbox MCP server",
-    "get the thoughtbox://interleaved/analysis and the thoughtbox://interleaved/development resources from the thoughtbox MCP server"
-  ],
-  "agent_name": "Sage"
-}

@@ -1,7 +1,0 @@
-{
-  "session_id": "129f3e50-893d-4ee2-95f0-00e302c46d03",
-  "prompts": [
-    "/thoughtbox-gcp:interleaved-thinking (MCP) task=\"update the constituent files in the .claude/skills/mcp-builder/reference/ folder to be fully and specifically compliant with the 2025-11-25 version of the Model Context Protocol specification, and to include references for this version of the spec --> create a subfolder in the existing .interleaved-thinking/ folder to track workflow state\" thoughts_limit=200 clear_folder=false"
-  ],
-  "agent_name": "Quantum"
-}

@@ -1,7 +1,0 @@
-{
-  "session_id": "b1e5b300-5b69-489e-bbae-ac3db5613e76",
-  "prompts": [
-    "I'd like for us to keep a markdown file somewhere in the src/ folder that describes all of the server's capabilities at any given time. We may want to produce this by running a script when we build the server."
-  ],
-  "agent_name": "Nova"
-}

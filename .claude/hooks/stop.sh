@@ -7,7 +7,7 @@
 set -e
 
 # Config (needed early for logging)
-LOG_FILE="$HOME/kastalien-research/thoughtbox-prod/thoughtbox-production/.claude/state/hook.log"
+LOG_FILE="${CLAUDE_LOG_DIR:-$HOME/.claude/state}/hook.log"
 DEBUG="$(echo "$CC_LANGSMITH_DEBUG" | tr '[:upper:]' '[:lower:]')"
 
 # Logging functions

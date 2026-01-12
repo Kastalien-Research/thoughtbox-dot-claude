@@ -10,7 +10,7 @@ This memory system helps Claude agents learn from past work and access relevant 
 .claude/rules/
 ├── 00-meta.md (this file)       # How the memory system works
 ├── tools/                        # Tool-specific patterns and learnings
-├── infrastructure/               # Deployment, Firebase, middleware
+├── infrastructure/               # Deployment, databases, middleware
 ├── testing/                      # Testing patterns and conventions
 ├── lessons/                      # Time-stamped learnings from sessions
 └── active-context/              # Current work focus
@@ -107,7 +107,7 @@ When adding a significant learning:
 
 **Stuck on something:**
 1. Check `.claude/rules/lessons/` for similar past challenges
-2. Look in domain-specific rules (e.g., `tools/thoughtbox.md`)
+2. Look in domain-specific rules (e.g., `tools/[your-tool].md`)
 3. Search `ai_docs/` for deeper context
 
 **Finishing a task:**
