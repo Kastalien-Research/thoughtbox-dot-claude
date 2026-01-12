@@ -1,0 +1,20 @@
+{
+  "$schema": "fitness-schema",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-12T00:00:00Z",
+  "patterns": {},
+  "metadata": {
+    "description": "Fitness scores for memory patterns. Updated by /meta:dgm-evolve",
+    "scoring": {
+      "usage_weight": 0.4,
+      "success_weight": 0.4,
+      "recency_weight": 0.2
+    },
+    "thresholds": {
+      "high_fitness": 7.0,
+      "low_fitness": 3.0,
+      "experimental_min_uses": 3,
+      "experimental_max_days": 30
+    }
+  }
+}

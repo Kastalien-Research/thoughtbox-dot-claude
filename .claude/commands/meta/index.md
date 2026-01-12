@@ -8,6 +8,14 @@ Higher-order frameworks and protocols that coordinate other commands and provide
 
 High-stakes debugging and problem-solving framework that prevents endless iteration cycles while maintaining quality through systematic phases and decision gates.
 
+### [dgm-evolve](./dgm-evolve.md)
+
+Darwin Godel Machine for memory patterns. Evolves the memory system through empirical fitness testing - patterns that help solve problems survive; patterns that don't fade away. No formal proofs required.
+
+### [capture-learning](./capture-learning.md)
+
+Interactive workflow for capturing learnings after significant work sessions.
+
 ### [learning-accelerator](./learning-accelerator.md) _(Coming Soon)_
 
 Meta-learning framework that optimizes how the entire command system learns and improves over time.

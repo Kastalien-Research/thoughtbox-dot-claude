@@ -1,0 +1,16 @@
+{
+  "$schema": "lineage-schema",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-12T00:00:00Z",
+  "patterns": {},
+  "metadata": {
+    "description": "Pattern ancestry and mutation history. Tracks how patterns evolve.",
+    "mutation_types": [
+      "generalization",
+      "specialization",
+      "combination",
+      "inversion",
+      "refinement"
+    ]
+  }
+}

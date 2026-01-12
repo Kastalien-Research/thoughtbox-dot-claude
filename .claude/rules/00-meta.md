@@ -13,7 +13,12 @@ This memory system helps Claude agents learn from past work and access relevant 
 ├── infrastructure/               # Deployment, databases, middleware
 ├── testing/                      # Testing patterns and conventions
 ├── lessons/                      # Time-stamped learnings from sessions
-└── active-context/              # Current work focus
+├── active-context/              # Current work focus
+└── evolution/                   # DGM pattern evolution system
+    ├── fitness.json             # Pattern fitness scores
+    ├── lineage.json             # Pattern ancestry
+    ├── experiments/             # Unproven variations
+    └── graveyard/               # Deprecated stepping stones
 ```
 
 ## How This Memory Learns
@@ -250,10 +255,65 @@ After significant work, optionally reflect to calibrate the system:
 - Load memory based on intent, not just file path
 - "I'm debugging" → auto-load debugging patterns
 
+## Darwin Godel Machine (DGM) Evolution
+
+The memory system implements DGM principles for self-improvement through empirical fitness testing.
+
+### Core Insight
+
+The original Godel Machine required *mathematical proof* that a self-modification would improve performance. The DGM uses *empirical evidence* instead - like evolution, where the deer that survives the lion didn't prove it was faster; it just was.
+
+### How It Works
+
+1. **Fitness Tracking**: Patterns gain fitness through usage and success signals
+2. **Mutation**: High-fitness patterns spawn variations (generalizations, specializations)
+3. **Selection**: Variations compete; winners are promoted, losers archived
+4. **Stepping Stones**: Failed patterns preserved in graveyard for potential resurrection
+
+### Evolution Commands
+
+```bash
+# Assess current pattern fitness
+/meta:dgm-evolve all --mode=assess
+
+# Generate variations of high-fitness patterns
+/meta:dgm-evolve tools --mode=mutate
+
+# Archive low-fitness patterns
+/meta:dgm-evolve all --mode=prune
+
+# Full evolution cycle
+/meta:dgm-evolve all --mode=full
+```
+
+### Fitness Score
+
+```
+fitness = (usage * 0.4) + (success_rate * 0.4) + (recency * 0.2)
+```
+
+- High fitness (>7): Candidates for mutation/exploration
+- Low fitness (<3): Candidates for pruning
+- Experimental: Awaiting validation
+
+### Signaling Pattern Success/Failure
+
+After using a pattern, agents can signal:
+
+```markdown
+## Session Calibration
+
+**Patterns Used**:
+- ✅ `infrastructure/database.md:connection-pooling` - Solved timeout issue
+- ❌ `tools/validation.md:schema-first` - Didn't apply to this case
+```
+
+See `.claude/rules/evolution/README.md` for full documentation.
+
 ## Meta-Learning
 
 This file itself should evolve! If you discover better ways to organize memory or capture learnings, update this file.
 
 The calibration section above should be updated as we learn what metrics and processes actually improve the information topology.
 
-**Last Updated**: 2026-01-09 (initial creation + calibration mechanisms)
+**Last Updated**: 2026-01-12 (added DGM evolution system)
