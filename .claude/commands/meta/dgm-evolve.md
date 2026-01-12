@@ -26,6 +26,8 @@ Our memory system can work the same way:
   - `mutate` - Generate variations of high-performing patterns
   - `prune` - Archive low-fitness patterns
   - `full` - Complete evolution cycle
+  - `cycle` - **CycleQD**: Advance to next quality focus and evolve
+  - `niche` - Show niche grid visualization
 - `--dry-run`: Show what would change without modifying
 
 ## The DGM-Memory Architecture
@@ -319,6 +321,169 @@ cat .claude/rules/active-context/current-focus.md
 | Selection | Benchmark comparison | Freshness decay + promotion |
 | Open-Ended | Keep stepping stones | Graveyard with resurrection conditions |
 
+## CycleQD: Quality Diversity for Patterns
+
+CycleQD extends DGM with **Quality Diversity** - instead of optimizing for one metric, we maintain a diverse population of patterns, each excelling in different ways.
+
+### The Niche Grid
+
+Patterns occupy positions in a 2D grid based on their **Behavior Characteristics (BCs)**:
+
+```
+                    APPLICABILITY
+                 (domain-specific → cross-cutting)
+                      1    2    3    4    5
+                   ┌────┬────┬────┬────┬────┐
+               1   │    │    │    │    │    │  Specific
+  S                ├────┼────┼────┼────┼────┤
+  P            2   │    │ 🟡 │    │    │    │  bug fixes
+  E                ├────┼────┼────┼────┼────┤
+  C            3   │    │    │ 🟢 │    │    │  domain patterns
+  I                ├────┼────┼────┼────┼────┤
+  F            4   │    │    │    │ 🔵 │    │  cross-domain
+  I                ├────┼────┼────┼────┼────┤
+  C            5   │    │    │    │    │ 🟣 │  universal principles
+  I                └────┴────┴────┴────┴────┘
+  T                                            General
+  Y
+```
+
+Each cell can hold **one champion pattern**. This ensures diversity - we don't want 10 patterns all in the same niche.
+
+### Behavior Characteristics
+
+| BC | Range | Low (1) | High (10) |
+|----|-------|---------|-----------|
+| **Specificity** | 1-10 | Fix for specific bug | Universal principle |
+| **Applicability** | 1-10 | Single domain only | Cross-cutting concern |
+| **Complexity** | 1-10 | Simple one-liner | Complex multi-step procedure |
+| **Maturity** | 1-10 | Just discovered | Battle-tested, used 50+ times |
+
+### Cyclic Quality Focus
+
+Instead of always optimizing for the same metric, CycleQD rotates focus:
+
+```
+Round 1: Optimize for USAGE
+  → Patterns that get referenced often win their niche
+
+Round 2: Optimize for SUCCESS_RATE
+  → Patterns with high success/failure ratio win
+
+Round 3: Optimize for GENERALIZABILITY
+  → Patterns with high applicability BC win
+
+Round 4: Optimize for CLARITY
+  → Simple patterns (low complexity) win
+
+Round 5: Optimize for EFFICIENCY
+  → High usage per complexity wins
+
+[Cycle repeats]
+```
+
+This ensures every quality dimension gets its "moment in the spotlight."
+
+### CycleQD Workflow
+
+```bash
+# View current niche grid
+/meta:dgm-evolve all --mode=niche
+```
+
+Output:
+```
+NICHE GRID (Current Focus: USAGE, Round 3)
+═══════════════════════════════════════════
+
+                    APPLICABILITY →
+           │  1  │  2  │  3  │  4  │  5  │
+       ────┼─────┼─────┼─────┼─────┼─────┤
+        1  │     │     │     │     │     │
+       ────┼─────┼─────┼─────┼─────┼─────┤
+   S    2  │     │ 🟡  │     │     │     │
+   P   ────┼─────┼─────┼─────┼─────┼─────┤
+   E    3  │     │     │ 🟢  │ 🟢  │     │
+   C   ────┼─────┼─────┼─────┼─────┼─────┤
+   ↓    4  │     │     │ 🔵  │ 🔵  │ 🔵  │
+       ────┼─────┼─────┼─────┼─────┼─────┤
+        5  │     │     │     │ 🟣  │ 🟣  │
+       ────┴─────┴─────┴─────┴─────┴─────┘
+
+Legend: 🟡 experimental  🟢 warm  🔵 hot  🟣 mature
+Coverage: 9/25 niches filled (36%)
+
+NICHE CHAMPIONS:
+  (2,2) lessons/debug-specific.md (fitness: 4.2)
+  (3,3) tools/api-errors.md (fitness: 6.8)
+  (3,4) infrastructure/retry.md (fitness: 7.1)
+  ...
+
+EMPTY NICHES (opportunity for new patterns):
+  - (1,*) Very specific patterns needed
+  - (*,1) Domain-locked patterns needed
+  - (5,5) Universal principles needed
+```
+
+```bash
+# Advance cycle and evolve
+/meta:dgm-evolve all --mode=cycle
+```
+
+Output:
+```
+CYCLE ADVANCEMENT: USAGE → SUCCESS_RATE (Round 4)
+═══════════════════════════════════════════════════
+
+Re-evaluating all patterns with SUCCESS_RATE as quality...
+
+NICHE CHANGES:
+  (3,3) tools/api-errors.md DEFENDED (success: 90%)
+  (3,4) infrastructure/retry.md CHALLENGED by experiments/smart-retry.md
+        → smart-retry.md wins (success: 95% vs 82%)
+        → retry.md demoted to graveyard
+  (4,4) NEW CHAMPION: lessons/circuit-breaker.md fills empty niche
+
+MUTATIONS GENERATED (based on high-success patterns):
+  → experiments/generalized-circuit-breaker.md (from lessons/circuit-breaker.md)
+  → experiments/api-errors-v2.md (from tools/api-errors.md)
+
+Coverage: 10/25 niches (40%) ↑
+```
+
+### Niche Competition Rules
+
+1. **One Champion Per Cell**: Each niche holds exactly one pattern
+2. **Quality-Based Selection**: Current cycle's quality metric determines winner
+3. **Diversity Bonus**: Patterns filling empty niches get +2 fitness
+4. **Incumbent Bonus**: Current champions get +1 fitness (stability)
+5. **Challenger Entry**: New patterns must beat incumbent by >1 fitness to take over
+
+### Assigning BCs to Patterns
+
+When adding a pattern, estimate its BCs:
+
+```markdown
+### 2026-01-12: Smart Retry with Backoff 🔥
+- **Issue**: API calls failing under load
+- **Solution**: Exponential backoff with jitter
+- **Pattern**: Retry with backoff for transient failures
+- **BCs**: specificity=5, applicability=8, complexity=4, maturity=3
+```
+
+Or let the system infer from context:
+- Domain file → affects applicability
+- Line count → affects complexity
+- Age + usage → affects maturity
+
+### CycleQD Benefits
+
+1. **Diversity Preservation**: Won't converge to all similar patterns
+2. **Multi-Objective**: Each quality gets attention cyclically
+3. **Niche Discovery**: Empty niches signal gaps in knowledge
+4. **Stable Evolution**: Champions have slight advantage (no thrashing)
+5. **Visual Insight**: Grid shows pattern landscape at a glance
+
 ## Future Enhancements
 
 1. **Automated Fitness Hooks**: Instrument Claude Code to track pattern usage automatically
@@ -331,9 +496,13 @@ cat .claude/rules/active-context/current-focus.md
 
 5. **A/B Testing**: Serve different pattern variants to see which performs better
 
+6. **Red Queen Mode**: Adversarial evolution where patterns compete directly
+
+7. **Collective Intelligence**: Multiple agents contribute patterns, best ones surface
+
 ---
 
-**The memory system becomes a living organism** - patterns compete for attention, successful ones reproduce (spawn variants), unsuccessful ones fade but aren't forgotten. Over time, the system evolves toward higher and higher fitness.
+**The memory system becomes a living organism** - patterns compete for attention, successful ones reproduce (spawn variants), unsuccessful ones fade but aren't forgotten. Over time, the system evolves toward higher and higher fitness while maintaining diversity across niches.
 
 ---
 
@@ -341,3 +510,5 @@ cat .claude/rules/active-context/current-focus.md
 - [Darwin Gödel Machine Paper (arXiv)](https://arxiv.org/abs/2505.22954)
 - [Sakana AI DGM Overview](https://sakana.ai/dgm/)
 - [GitHub: jennyzzt/dgm](https://github.com/jennyzzt/dgm)
+- [CycleQD: Agent Skill Acquisition via Quality Diversity (arXiv)](https://arxiv.org/abs/2410.14735)
+- [Sakana AI CycleQD Overview](https://sakana.ai/cycleqd/)

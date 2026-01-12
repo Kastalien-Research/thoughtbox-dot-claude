@@ -255,46 +255,47 @@ After significant work, optionally reflect to calibrate the system:
 - Load memory based on intent, not just file path
 - "I'm debugging" → auto-load debugging patterns
 
-## Darwin Godel Machine (DGM) Evolution
+## Darwin Godel Machine (DGM) + CycleQD Evolution
 
-The memory system implements DGM principles for self-improvement through empirical fitness testing.
+The memory system implements **DGM** (empirical fitness) and **CycleQD** (quality diversity) principles for self-improvement.
 
-### Core Insight
+### Core Insights
 
-The original Godel Machine required *mathematical proof* that a self-modification would improve performance. The DGM uses *empirical evidence* instead - like evolution, where the deer that survives the lion didn't prove it was faster; it just was.
+**DGM**: The original Godel Machine required *mathematical proof* that a self-modification would improve performance. DGM uses *empirical evidence* instead - like evolution, where the deer that survives the lion didn't prove it was faster; it just was.
+
+**CycleQD**: Instead of optimizing for one "best" pattern, maintain a diverse population where each pattern occupies a unique niche. Cycle through different quality metrics so every dimension gets attention.
 
 ### How It Works
 
 1. **Fitness Tracking**: Patterns gain fitness through usage and success signals
-2. **Mutation**: High-fitness patterns spawn variations (generalizations, specializations)
-3. **Selection**: Variations compete; winners are promoted, losers archived
-4. **Stepping Stones**: Failed patterns preserved in graveyard for potential resurrection
+2. **Behavior Characteristics**: Patterns scored on specificity, applicability, complexity, maturity
+3. **Niche Grid**: 5x5 grid where each cell holds one "champion" pattern
+4. **Cyclic Selection**: Rotate quality focus (usage → success → generalizability → clarity → efficiency)
+5. **Stepping Stones**: Failed patterns preserved in graveyard for potential resurrection
 
 ### Evolution Commands
 
 ```bash
-# Assess current pattern fitness
-/meta:dgm-evolve all --mode=assess
+# DGM Evolution
+/meta:dgm-evolve all --mode=assess    # Calculate fitness
+/meta:dgm-evolve all --mode=mutate    # Generate variations
+/meta:dgm-evolve all --mode=prune     # Archive low-fitness
+/meta:dgm-evolve all --mode=full      # Complete cycle
 
-# Generate variations of high-fitness patterns
-/meta:dgm-evolve tools --mode=mutate
-
-# Archive low-fitness patterns
-/meta:dgm-evolve all --mode=prune
-
-# Full evolution cycle
-/meta:dgm-evolve all --mode=full
+# CycleQD Evolution
+/meta:dgm-evolve all --mode=niche     # View niche grid
+/meta:dgm-evolve all --mode=cycle     # Advance quality focus + evolve
 ```
 
 ### Fitness Score
 
 ```
-fitness = (usage * 0.4) + (success_rate * 0.4) + (recency * 0.2)
-```
+base_fitness = (usage * 0.4) + (success_rate * 0.4) + (recency * 0.2)
 
-- High fitness (>7): Candidates for mutation/exploration
-- Low fitness (<3): Candidates for pruning
-- Experimental: Awaiting validation
+# CycleQD modifiers
+if fills_empty_niche: fitness += 2
+if is_champion: fitness += 1
+```
 
 ### Signaling Pattern Success/Failure
 
@@ -316,4 +317,4 @@ This file itself should evolve! If you discover better ways to organize memory o
 
 The calibration section above should be updated as we learn what metrics and processes actually improve the information topology.
 
-**Last Updated**: 2026-01-12 (added DGM evolution system)
+**Last Updated**: 2026-01-12 (added CycleQD niche system)

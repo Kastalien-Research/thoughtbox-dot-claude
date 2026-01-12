@@ -1,20 +1,65 @@
 {
   "$schema": "fitness-schema",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "lastUpdated": "2026-01-12T00:00:00Z",
   "patterns": {},
+
   "metadata": {
-    "description": "Fitness scores for memory patterns. Updated by /meta:dgm-evolve",
+    "description": "Fitness scores and Behavior Characteristics for memory patterns. Updated by /meta:dgm-evolve",
+
     "scoring": {
       "usage_weight": 0.4,
       "success_weight": 0.4,
       "recency_weight": 0.2
     },
+
     "thresholds": {
       "high_fitness": 7.0,
       "low_fitness": 3.0,
       "experimental_min_uses": 3,
       "experimental_max_days": 30
     }
+  },
+
+  "patternSchema": {
+    "description": "Schema for individual pattern entries in 'patterns' object",
+    "example": {
+      "tools/api-patterns.md#rate-limiting": {
+        "fitness": 8.5,
+        "metrics": {
+          "usage_count": 12,
+          "success_signals": 9,
+          "failure_signals": 1,
+          "last_used": "2026-01-10T14:30:00Z",
+          "created": "2025-12-15T00:00:00Z"
+        },
+        "behaviorCharacteristics": {
+          "specificity": 5,
+          "applicability": 7,
+          "complexity": 4,
+          "maturity": 8
+        },
+        "niche": {
+          "cell": "3,4",
+          "isChampion": true,
+          "challengedBy": []
+        },
+        "lineage": {
+          "parent": null,
+          "children": ["evolution/experiments/general-rate-limiting.md"],
+          "generation": 0
+        }
+      }
+    }
+  },
+
+  "cycleQD": {
+    "enabled": true,
+    "currentCycle": {
+      "quality": "usage",
+      "round": 0,
+      "startedAt": null
+    },
+    "history": []
   }
 }

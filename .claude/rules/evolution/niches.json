@@ -1,0 +1,99 @@
+{
+  "$schema": "niches-schema",
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-12T00:00:00Z",
+  "description": "CycleQD niche grid for memory patterns. Each niche can hold one champion pattern.",
+
+  "behaviorCharacteristics": {
+    "specificity": {
+      "description": "How targeted (1) vs general (10) the pattern is",
+      "range": [1, 10],
+      "examples": {
+        "1": "Fix for specific bug in auth.ts line 47",
+        "5": "Pattern for handling API rate limits",
+        "10": "Universal principle: fail fast, recover gracefully"
+      }
+    },
+    "applicability": {
+      "description": "Single domain (1) vs cross-cutting (10)",
+      "range": [1, 10],
+      "examples": {
+        "1": "Only applies to PostgreSQL connections",
+        "5": "Applies to all database connections",
+        "10": "Applies to any external service integration"
+      }
+    },
+    "complexity": {
+      "description": "Simple rule (1) vs complex procedure (10)",
+      "range": [1, 10],
+      "examples": {
+        "1": "Always use const instead of let",
+        "5": "Implement retry with exponential backoff",
+        "10": "Full distributed transaction saga pattern"
+      }
+    },
+    "maturity": {
+      "description": "New/experimental (1) vs battle-tested (10)",
+      "range": [1, 10],
+      "examples": {
+        "1": "Just discovered, untested",
+        "5": "Used successfully 3-5 times",
+        "10": "Core pattern, used dozens of times"
+      }
+    }
+  },
+
+  "primaryAxes": {
+    "x": "specificity",
+    "y": "applicability",
+    "color": "maturity"
+  },
+
+  "gridResolution": 5,
+  "grid": {
+    "description": "5x5 grid of niches. Keys are 'x,y' coordinates (1-5 scale, mapped from 1-10)",
+    "cells": {}
+  },
+
+  "cycleState": {
+    "currentQuality": "usage",
+    "cycleOrder": ["usage", "success_rate", "generalizability", "clarity", "efficiency"],
+    "roundNumber": 0,
+    "lastCycleTime": null
+  },
+
+  "qualityDefinitions": {
+    "usage": {
+      "description": "How often the pattern is referenced",
+      "weight": 1.0,
+      "metric": "usage_count"
+    },
+    "success_rate": {
+      "description": "Ratio of success to failure signals",
+      "weight": 1.0,
+      "metric": "success_signals / (success_signals + failure_signals)"
+    },
+    "generalizability": {
+      "description": "Applicability score - higher means more general",
+      "weight": 1.0,
+      "metric": "applicability_bc"
+    },
+    "clarity": {
+      "description": "Inverse of complexity - simpler patterns score higher",
+      "weight": 1.0,
+      "metric": "11 - complexity_bc"
+    },
+    "efficiency": {
+      "description": "Value per complexity - high impact, low complexity wins",
+      "weight": 1.0,
+      "metric": "usage_count / complexity_bc"
+    }
+  },
+
+  "nicheRules": {
+    "oneChampionPerCell": true,
+    "championSelection": "When two patterns compete for same niche, the one with higher quality (based on current cycle focus) wins",
+    "diversityBonus": "Patterns that fill empty niches get +2 fitness bonus",
+    "nicheDefense": "Incumbent champions get +1 fitness bonus (stability)"
+  }
+}
