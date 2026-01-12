@@ -8,7 +8,7 @@ Copy the `.claude/` folder into any project:
 
 ```bash
 # Clone and copy
-git clone https://github.com/YOUR_USERNAME/thoughtbox-dot-claude.git
+git clone https://github.com/Kastalien-Research/thoughtbox-dot-claude.git
 cp -r thoughtbox-dot-claude/.claude/ /path/to/your/project/
 ```
 
