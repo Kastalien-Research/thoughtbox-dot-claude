@@ -4,6 +4,14 @@ Organized collection of slash commands for orchestrated development workflows an
 
 ## Command Categories
 
+### 🧠 [Memory](./memory/index.md)
+
+Memory system interaction - search, add, and manage learnings.
+
+- `start` - Quick start guide for the memory system
+- `search` - Search for patterns and learnings
+- `add-quick` - Add a learning in one command
+
 ### 📊 [Analysis](./analysis/index.md)
 
 Code analysis, pattern tracking, and historical insights.

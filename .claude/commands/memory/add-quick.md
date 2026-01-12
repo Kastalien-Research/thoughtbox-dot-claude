@@ -151,11 +151,11 @@ This walks you through the process with prompts.
 
 ---
 
-**Remember**: Every learning makes the system better for future work! 🎯
+**Remember**: Every learning makes the system better for future work!
 
 ---
 
 **See also:**
-- `/memory-start` - Quick start guide
-- `/memory-search` - Search existing patterns
+- `/memory:start` - Quick start guide
+- `/memory:search` - Search existing patterns
 - `.claude/rules/00-meta.md` - Memory system guide

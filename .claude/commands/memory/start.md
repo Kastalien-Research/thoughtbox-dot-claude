@@ -1,10 +1,10 @@
 # Memory System Quick Start
 
-**The memory system is ready to use!** 🎯
+**The memory system is ready to use!**
 
 ---
 
-## 📊 Current Status
+## Current Status
 
 Run this to see what's in memory right now:
 
@@ -14,7 +14,7 @@ Run this to see what's in memory right now:
 
 ---
 
-## 🔍 Search Memory
+## Search Memory
 
 Find patterns and learnings:
 
@@ -36,7 +36,7 @@ Find patterns and learnings:
 
 ---
 
-## ➕ Add Learning
+## Add Learning
 
 Capture something you just discovered:
 
@@ -59,7 +59,7 @@ echo '{
 
 ---
 
-## 📁 Where Things Are
+## Where Things Are
 
 ```
 .claude/rules/
@@ -74,7 +74,7 @@ echo '{
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 
 See what we're working on:
 
@@ -84,7 +84,7 @@ cat .claude/rules/active-context/current-focus.md
 
 ---
 
-## 🛠️ Available Commands
+## Available Commands
 
 All in `.claude/bin/`:
 
@@ -102,7 +102,7 @@ export PATH="$PATH:$(pwd)/.claude/bin"
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 **Quick:**
 - `COMPLETE_SYSTEM_SUMMARY.md` - System overview
@@ -116,7 +116,7 @@ export PATH="$PATH:$(pwd)/.claude/bin"
 
 ---
 
-## 🚀 Quick Actions
+## Quick Actions
 
 **Before starting work:**
 ```bash
@@ -141,7 +141,7 @@ cat .claude/rules/active-context/current-focus.md
 
 ---
 
-## 🎓 Examples
+## Examples
 
 **Example 1: Find Firebase patterns**
 ```bash
@@ -165,7 +165,7 @@ echo '{
 
 ---
 
-## ⚙️ Integration (Optional)
+## Integration (Optional)
 
 To enable automatic calibration hooks:
 
@@ -177,7 +177,7 @@ This will show you how to integrate hooks for automatic pattern tracking.
 
 ---
 
-## 💡 Tips
+## Tips
 
 1. **Path-specific rules auto-load** - When you edit `src/firebase.ts`, `.claude/rules/infrastructure/firebase.md` loads automatically (if it has matching paths in frontmatter)
 
@@ -188,9 +188,9 @@ This will show you how to integrate hooks for automatic pattern tracking.
    - `lessons/` - Cross-cutting learnings
 
 3. **Freshness matters** - Use tags:
-   - 🔥 HOT (< 2 weeks)
-   - ⚡ WARM (< 3 months)
-   - 📚 COLD (> 3 months)
+   - HOT (< 2 weeks)
+   - WARM (< 3 months)
+   - COLD (> 3 months)
 
 4. **Search is fast** - Don't hesitate to search frequently
 
@@ -198,7 +198,7 @@ This will show you how to integrate hooks for automatic pattern tracking.
 
 ---
 
-## 🆘 Common Tasks
+## Common Tasks
 
 **"I just hit an error"**
 ```bash
@@ -226,7 +226,7 @@ cat .claude/rules/active-context/current-focus.md
 
 ---
 
-## 🎯 System Philosophy
+## System Philosophy
 
 This isn't just documentation - it's a **self-improving cognitive landscape**:
 
@@ -241,13 +241,13 @@ This isn't just documentation - it's a **self-improving cognitive landscape**:
 
 ## Next Steps
 
-1. ✅ Run `memory-stats` to see current state
-2. ✅ Check `current-focus.md` to see what's active
-3. ✅ Search for patterns: `memory-query "your-topic"`
-4. ✅ Add learnings as you discover them
-5. ✅ Watch the system improve over time
+1. Run `memory-stats` to see current state
+2. Check `current-focus.md` to see what's active
+3. Search for patterns: `memory-query "your-topic"`
+4. Add learnings as you discover them
+5. Watch the system improve over time
 
-**That's it! The memory system is ready to use.** 🧠✨
+**That's it! The memory system is ready to use.**
 
 ---
 

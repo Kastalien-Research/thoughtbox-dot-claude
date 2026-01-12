@@ -124,6 +124,6 @@ If you don't find what you need:
 ---
 
 **See also:**
-- `/memory-start` - Quick start guide
+- `/memory:start` - Quick start guide
 - `/meta capture-learning` - Add new learnings
 - `.claude/bin/README.md` - Full CLI documentation
